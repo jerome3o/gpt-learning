@@ -1,2 +1,3 @@
 venv/
 fashion_data/
+__pycache__/
