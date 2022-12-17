@@ -10,13 +10,13 @@ class MyNeuralNetwork(nn.Module):
         super().__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(28*28, 512),
+            nn.Linear(28 * 28, 512),
             nn.ReLU(),
             nn.Linear(512, 512),
             nn.ReLU(),
             nn.Linear(512, 10),
         )
-    
+
     def forward(self, x):
         x = self.flatten(x)
         logits = self.linear_relu_stack(x)
@@ -25,9 +25,9 @@ class MyNeuralNetwork(nn.Module):
 
 def train(
     dataloader: DataLoader,
-    model: MyNeuralNetwork, 
-    loss_fn, 
-    optimizer, 
+    model: MyNeuralNetwork,
+    loss_fn,
+    optimizer,
     device,
 ):
     size = len(dataloader.dataset)
@@ -62,7 +62,10 @@ def test(dataloader: DataLoader, model, loss_fn, device):
             correct += (pred.argmax(1) == y).type(torch.float).sum().item()
         test_loss /= num_batches
         correct /= size
-        print(f"Test Error: \n Accuracy: {100*correct:>0.1f}%, Avg loss = {test_loss:>8f} \n")
+        print(
+            f"Test Error: \n Accuracy: {100*correct:>0.1f}%, Avg loss = {test_loss:>8f} \n"
+        )
+
 
 def main():
     # Download training data from open datasets
@@ -96,7 +99,6 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using {device} device")
 
-
     model = MyNeuralNetwork().to(device)
 
     loss_fn = nn.CrossEntropyLoss()
@@ -110,7 +112,7 @@ def main():
     print("Done!")
 
     model_path = "model.pth"
-    torch.save(model.state_dict(), model_path) 
+    torch.save(model.state_dict(), model_path)
     print(f"Saved PyTorch Model State to {model_path}")
 
     # loading model
@@ -118,7 +120,6 @@ def main():
     loaded_model.load_state_dict(torch.load(model_path))
 
     print(loaded_model)
-
 
     classes = [
         "T-shirt/top",
@@ -144,5 +145,6 @@ def main():
 
 if __name__ == "__main__":
     import logging
+
     logging.basicConfig(level=logging.INFO)
     main()
