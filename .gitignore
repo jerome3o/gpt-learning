@@ -1,3 +1,4 @@
 venv/
 fashion_data/
 __pycache__/
+model.pth
