@@ -102,9 +102,41 @@ model = MyNeuralNetwork().to(device)
 loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=1e-3)
 
-epochs = 10
+epochs = 1
 for t in range(epochs):
     print(f"Epoch {t+1}\n-------------------------------")
     train(train_dataloader, model, loss_fn, optimizer, device)
     test(test_dataloader, model, loss_fn)
 print("Done!")
+
+model_path = "model.pth"
+torch.save(model.state_dict(), model_path) 
+print(f"Saved PyTorch Model State to {model_path}")
+
+# loading model
+loaded_model = MyNeuralNetwork()
+loaded_model.load_state_dict(torch.load(model_path))
+
+print(loaded_model)
+
+
+classes = [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot",
+]
+
+model.eval()
+x, y = test_data[0][0], test_data[0][1]
+
+with torch.no_grad():
+    pred = loaded_model(x)
+    predicted, actual = classes[pred[0].argmax(0)], classes[y]
+    print(f"predicted: '{predicted}', Actual: '{actual}'")
