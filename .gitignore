@@ -1,5 +1,9 @@
+.virtual_documents/
+venv/
+*.zip
 venv/
 fashion_data/
 data/
 __pycache__/
 model.pth
+.ipynb_checkpoints/
