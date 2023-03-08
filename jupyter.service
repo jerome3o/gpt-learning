@@ -1,0 +1,12 @@
+[Unit]
+Description=Jupyter server for tinking with machine learning
+; After=network.target
+
+[Service]
+User=jerome
+WorkingDirectory=/home/jerome/source/pytorch_hello_worlds/
+ExecStart=/home/jerome/source/pytorch_hello_worlds/start_jupyter.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
