@@ -61,7 +61,7 @@ Description=Jupyter server for tinking with machine learning
 [Service]
 User=jerome
 WorkingDirectory=/home/jerome/source/pytorch_hello_worlds/
-ExecStart=/home/jerome/source/pytorch_hello_worlds/venv/bin/jupyter lab
+ExecStart=/home/jerome/source/pytorch_hello_worlds/start_jupyter.sh
 Restart=always
 
 [Install]
