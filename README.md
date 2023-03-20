@@ -12,6 +12,16 @@ Build a deep neural network using PyTorch to classify images in the CIFAR-10 dat
 
 * See [conv_net](/tut/conv_net.ipynb)
 
+### Next Steps
+
+Try and prevent overfitting with these techniques:
+
+* L1 and L2 regularization: These are techniques that add a penalty term to the loss function to discourage the model from assigning too much importance to any single feature. L1 regularization adds the absolute value of the weights to the loss function, while L2 regularization adds the square of the weights. L2 regularization is also known as weight decay.
+* Dropout: This technique randomly drops out some of the neurons in a layer during training, which forces the remaining neurons to take on more responsibility and prevents overfitting.
+* Early stopping: This technique stops training the model before it fully converges to the training data, based on a validation set's performance. It helps prevent overfitting by selecting a model with the best generalization performance, rather than the one that fits the training data the best.
+* Data augmentation: This technique artificially increases the size of the training set by applying transformations, such as rotations or flips, to the input data. This helps the model learn more robust features and prevents overfitting.
+* Batch normalization: This technique normalizes the inputs to a layer across each mini-batch of data during training. It helps reduce the internal covariate shift problem and regularizes the model by making it less sensitive to the scale of the inputs.
+
 ## Sentiment analysis
 
 Use PyTorch to build a model that can predict the sentiment of a text message. You can use a dataset like IMDB reviews or Twitter sentiment analysis dataset.
