@@ -10,6 +10,8 @@ Following are a few "Hello World" like machine learning projects suggested by Ch
 
 Build a deep neural network using PyTorch to classify images in the CIFAR-10 dataset. This is a classic "hello world" project for deep learning and will help you get comfortable with building and training neural networks.
 
+* See [conv_net](/tut/conv_net.ipynb)
+
 ## Sentiment analysis
 
 Use PyTorch to build a model that can predict the sentiment of a text message. You can use a dataset like IMDB reviews or Twitter sentiment analysis dataset.
