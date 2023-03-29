@@ -10,7 +10,7 @@ Following are a few "Hello World" like machine learning projects suggested by Ch
 
 Build a deep neural network using PyTorch to classify images in the CIFAR-10 dataset. This is a classic "hello world" project for deep learning and will help you get comfortable with building and training neural networks.
 
-* See [conv_net](/tut/conv_net.ipynb)
+* Implemented here: [conv_net](/tut/conv_net.ipynb)
 
 ### Next Steps
 
@@ -25,6 +25,23 @@ Try and prevent overfitting with these techniques:
 ## Sentiment analysis
 
 Use PyTorch to build a model that can predict the sentiment of a text message. You can use a dataset like IMDB reviews or Twitter sentiment analysis dataset.
+
+### Sub-Tasks
+
+* Exploring different NLP pre-processing techniques: [1_1_pre_processing_learning](tut/sentiment_analysis/1_1_pre_processing_learning.ipynb)
+* Training a tokenizer with BPE: [1_2_tokenizer](tut/sentiment_analysis/1_2_tokenizer.ipynb)
+* Sentiment analysis with an RNN: [2_1_rnn](tut/sentiment_analysis/2_1_rnn.ipynb)
+    * Implemented using `nn.RNN` easily
+    * Implemented custom RNN module, however had issues training it due to instability (gradient exploding, and then vanishing). Deferred learning how to fix this to a later date
+
+* Sentiment analysis with an LSTM: [2_2_lstm](tut/sentiment_analysis/2_2_lstm.ipynb)
+* Sentiment analysis with a GRU: [2_3_gru](tut/sentiment_analysis/2_3_gru.ipynb)
+* Sentiment analysis with a CNN: [2_4_cnn](tut/sentiment_analysis/2_4_cnn.ipynb)
+* Sentiment analysis with a transformer: [2_5_transformer](tut/sentiment_analysis/2_5_transformer.ipynb)
+* Sentiment analysis with pre-trained models:
+    * [bert](tut/sentiment_analysis/2_6_pretrained_bert.ipynb)
+    * [gpt](tut/sentiment_analysis/2_7_pretrained_gpt.ipynb)
+    * [roberta](tut/sentiment_analysis/2_8_pretrained_roberta.ipynb)
 
 ## Handwritten digit recognition
 
@@ -49,7 +66,7 @@ Create and activate venv
 ```sh
 python -m venv venv
 ./venv/bin/activate
-``` 
+```
 
 Install reqs
 ```
@@ -83,7 +100,7 @@ Some other useful settings:
 c.NotebookApp.open_browser = False
 
 # if you'd like to run it on a specific address, or bind to all.
-# I bound it to it's tailscale address so I can access only from 
+# I bound it to it's tailscale address so I can access only from
 #   the vpn
 c.NotebookApp.ip = '0.0.0.0'
 ```
