@@ -13,3 +13,23 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 
 * [Analytics India Mag](https://analyticsindiamag.com/databricks-dolly-2-0-is-a-game-changer-in-the-open-source-llms/)
 * [Hugging Face](https://huggingface.co/databricks)
+
+## BLOOM
+
+Parameters: 560M, 1.1B, 1.7B, 3B, 7.1B, 176B (!!!)
+Creator: [BigScience](https://bigscience.huggingface.co/)
+
+* [Overview](https://huggingface.co/docs/transformers/model_doc/bloom)
+* [Hugging Face (7.1B)](https://huggingface.co/bigscience/bloom-7b1/tree/main)
+
+## GLM-130B
+
+## GPT-Neo, GPT-NeoX, GPT-J (EleutherAI)
+
+## GPT-2
+
+## PaLM
+
+## OPT
+
+## CerebrasGPT
