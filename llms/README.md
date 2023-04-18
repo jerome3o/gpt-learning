@@ -8,7 +8,9 @@ I plan to try and run all of these on the ML rig.
 
 ## Dolly 2.0
 
-Parameters: 12, 7, 6, 3 (B)
+Fine Tuned ✔️
+
+Parameters: 3B, 6B, 7B, 12B
 Creator: [DataBricks](https://www.databricks.com/)
 Model Family: [pythia](https://github.com/EleutherAI/pythia)
 Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)
@@ -16,7 +18,19 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 * [Analytics India Mag](https://analyticsindiamag.com/databricks-dolly-2-0-is-a-game-changer-in-the-open-source-llms/)
 * [Hugging Face](https://huggingface.co/databricks)
 
+## Open Assistant
+
+Fine tuned versions of Pythia models
+
+Parameters: 1.4B, 6.9B, 12B
+
+* [Website](https://open-assistant.io/)
+* [GitHub](https://github.com/LAION-AI/Open-Assistant)
+* [Hugging Face](https://huggingface.co/OpenAssistant)
+
 ## BLOOM (only the smaller ones)
+
+Not fine tuned
 
 Parameters: 560M, 1.1B, 1.7B, 3B, 7.1B, 176B (!!!)
 Creator: [BigScience](https://bigscience.huggingface.co/)
@@ -56,22 +70,30 @@ Creator: [EleutherAI](https://www.eleuther.ai/)
 
 ## Pythia
 
+Not fine tuned
+
 Creator: [EleutherAI](https://www.eleuther.ai/)
 
 * [GitHub](https://github.com/EleutherAI/pythia)
 
 
-## GPT-2
-
-## PaLM
-
-## OPT
-
 ## CerebrasGPT
+
+Not fine tuned
+
+* [Article](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/)
 
 ## LLaMA
 
+Meta's LLM architecture + research only trained models - not for commercial use. I don't think it's fine tuned.
+
+* [article](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+
 ## Alpaca
+
+Stanford using the LLaMa, fined tuned, not for commercial use.
+
+* [GitHub](https://github.com/tatsu-lab/stanford_alpaca)
 
 # Too Big
 
