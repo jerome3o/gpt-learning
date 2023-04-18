@@ -12,3 +12,4 @@ model.pth
 data/
 spm.*
 *.json
+scratch/
