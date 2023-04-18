@@ -25,8 +25,31 @@ Creator: [BigScience](https://bigscience.huggingface.co/)
 * [Hugging Face (7.1B)](https://huggingface.co/bigscience/bloom-7b1/tree/main)
 
 
-## GPT-Neo, GPT-NeoX, GPT-J (EleutherAI)
+## GPT-Neo
 
+Parameters: 125M, 1.3B, 2.7B
+Creator: [EleutherAI](https://www.eleuther.ai/)
+
+* [GitHub](https://github.com/EleutherAI/gpt-neo)
+
+## GPT-NeoX
+
+Parameters: 20B
+Creator: [EleutherAI](https://www.eleuther.ai/)
+
+* [GitHub](https://github.com/EleutherAI/gpt-neox)
+
+## GPT-J
+
+Creator: [EleutherAI](https://www.eleuther.ai/)
+
+* [HuggingFace](https://huggingface.co/EleutherAI/gpt-j-6b)
+
+## Pythia
+
+Creator: [EleutherAI](https://www.eleuther.ai/)
+
+* [GitHub](https://github.com/EleutherAI/pythia)
 
 
 ## GPT-2
