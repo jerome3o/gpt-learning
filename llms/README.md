@@ -8,7 +8,7 @@ I plan to try and run all of these on the ML rig.
 
 ## Dolly 2.0
 
-Fine Tuned ✔️
+Fine tuned ✔️
 
 Parameters: 3B, 6B, 7B, 12B
 Creator: [DataBricks](https://www.databricks.com/)
@@ -20,7 +20,9 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 
 ## Open Assistant
 
-Fine tuned versions of Pythia models
+Fine tuned ✔️
+
+Based on Pythia models
 
 Parameters: 1.4B, 6.9B, 12B
 
