@@ -27,20 +27,29 @@ Creator: [BigScience](https://bigscience.huggingface.co/)
 
 ## GPT-Neo
 
+Not fine tuned
+
 Parameters: 125M, 1.3B, 2.7B
 Creator: [EleutherAI](https://www.eleuther.ai/)
 
 * [GitHub](https://github.com/EleutherAI/gpt-neo)
+* [Hugging Face 2.7B](https://huggingface.co/EleutherAI/gpt-neo-2.7B)
 
 ## GPT-NeoX
+
+Not fine tuned
 
 Parameters: 20B
 Creator: [EleutherAI](https://www.eleuther.ai/)
 
 * [GitHub](https://github.com/EleutherAI/gpt-neox)
+* [Hugging Face](https://huggingface.co/EleutherAI/gpt-neox-20b)
 
 ## GPT-J
 
+Not fine tuned
+
+Parameters: 6B
 Creator: [EleutherAI](https://www.eleuther.ai/)
 
 * [HuggingFace](https://huggingface.co/EleutherAI/gpt-j-6b)
