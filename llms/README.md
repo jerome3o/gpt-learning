@@ -9,7 +9,7 @@ I plan to try and run all of these on the ML rig.
 Parameters: 12, 7, 6, 3 (B)
 Creator: [DataBricks](https://www.databricks.com/)
 Model Family: [pythia](https://github.com/EleutherAI/pythia)
-Fine Tuning Dataset: [databircks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)
+Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)
 
 * [Analytics India Mag](https://analyticsindiamag.com/databricks-dolly-2-0-is-a-game-changer-in-the-open-source-llms/)
 * [Hugging Face](https://huggingface.co/databricks)
