@@ -22,6 +22,7 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 ## Flan-T5
 
 * [Hugging Face](https://huggingface.co/google/flan-t5-xl)
+* [Article](https://exemplary.ai/blog/flan-t5)
 
 ## Open Assistant
 
