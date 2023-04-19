@@ -18,6 +18,11 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 * [Analytics India Mag](https://analyticsindiamag.com/databricks-dolly-2-0-is-a-game-changer-in-the-open-source-llms/)
 * [Hugging Face](https://huggingface.co/databricks)
 
+
+## Flan-T5
+
+* [Hugging Face](https://huggingface.co/google/flan-t5-xl)
+
 ## Open Assistant
 
 Fine tuned ✔️
