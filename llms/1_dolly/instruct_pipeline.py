@@ -155,10 +155,6 @@ class InstructionTextGenerationPipeline(Pipeline):
             generated_sequence = generated_sequence.reshape(
                 in_b, out_b // in_b, *generated_sequence.shape[1:]
             )
-        elif self.framework == "tf":
-            generated_sequence = tf.reshape(
-                generated_sequence, (in_b, out_b // in_b, *generated_sequence.shape[1:])
-            )
 
         instruction_text = model_inputs.pop("instruction_text")
         return {
