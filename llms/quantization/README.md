@@ -7,3 +7,7 @@
     * needs [hipblas](https://github.com/ROCmSoftwarePlatform/hipBLAS)
     * needs cmake and gfortran (`sudo apt install cmake gfortran`)
     * hipblas needs [rocblas](https://github.com/ROCmSoftwarePlatform/rocBLAS)
+        * `sudo apt install rocblas` failed, and broke `apt` (fixed with `sudo apt remove rocblas rocblas-dev`)
+        * cloned rocblas, trying to use cmake - it needs version `3.16.8` (I only have `3.16.3`)
+            * followed [this](https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu) guide to update cmake
+        * rocblas needs `msgpack`, this caused some issues, couldn't figure out how to fix this, but there is an option to install rocblas without `msgpack`, with `./install --no-msgpack`.
