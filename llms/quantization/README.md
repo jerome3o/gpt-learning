@@ -73,3 +73,11 @@ Errors were encountered while processing:
 
 * I had to do `rocm-llvm` twice for some reason
 * After that I was able to run `sudo apt --fix-broken install` successfully, then install `hipblas`
+
+# RIP
+
+```log
+=============================================
+ERROR: Your GPU does not support Int8 Matmul!
+=============================================
+```
