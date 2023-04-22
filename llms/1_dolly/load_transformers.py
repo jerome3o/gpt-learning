@@ -14,7 +14,7 @@ def main():
         "databricks/dolly-v2-3b",
         cache_dir=_CACHE_DIR,
         device_map="auto",
-        load_in_8bit=True,
+        # load_in_8bit=True,
     )
 
     # tokenizer_6b = AutoTokenizer.from_pretrained(
@@ -42,14 +42,12 @@ def main():
     #     device_map="auto",
     #     load_in_8bit=True,
     # )
-
-    print(model_3b)
-
     model = model_3b
     tokenizer = tokenizer_3b
 
     generate_text = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer)
-    res = generate_text("Write me a poem about frogs")
+    while True:
+        print("AI:", generate_text(input("Human: "))[0]["generated_text"])
 
 
 if __name__ == "__main__":
