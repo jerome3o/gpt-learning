@@ -16,6 +16,13 @@ def main():
     int8_model.load_state_dict(torch.load("fp16_model.pt"))
     int8_model = int8_model.to("cuda")
     print(int8_model)
+    input_vector = (
+        torch.tensor([1.0] * 64, dtype=torch.float32)
+        .to(torch.float16)
+        .view(1, 64)
+        .to("cuda")
+    )
+    output_vector = int8_model(input_vector)
 
 
 if __name__ == "__main__":
