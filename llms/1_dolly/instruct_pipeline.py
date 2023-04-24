@@ -48,9 +48,7 @@ def get_special_token_id(tokenizer: PreTrainedTokenizer, key: str) -> int:
     """
     token_ids = tokenizer.encode(key)
     if len(token_ids) > 1:
-        raise ValueError(
-            f"Expected only a single token for '{key}' but found {token_ids}"
-        )
+        raise ValueError(f"Expected only a single token for '{key}' but found {token_ids}")
     return token_ids[0]
 
 
@@ -101,9 +99,7 @@ class InstructionTextGenerationPipeline(Pipeline):
         end_key_token_id = None
         if tokenizer_response_key:
             try:
-                response_key_token_id = get_special_token_id(
-                    self.tokenizer, tokenizer_response_key
-                )
+                response_key_token_id = get_special_token_id(self.tokenizer, tokenizer_response_key)
                 end_key_token_id = get_special_token_id(self.tokenizer, END_KEY)
 
                 # Ensure generation stops once it generates "### End"
@@ -201,9 +197,7 @@ class InstructionTextGenerationPipeline(Pipeline):
                     except ValueError:
                         end_pos = None
 
-                    decoded = self.tokenizer.decode(
-                        sequence[response_pos + 1 : end_pos]
-                    ).strip()
+                    decoded = self.tokenizer.decode(sequence[response_pos + 1 : end_pos]).strip()
 
             if not decoded:
                 # Otherwise we'll decode everything and use a regex to find the response and end.
@@ -212,18 +206,14 @@ class InstructionTextGenerationPipeline(Pipeline):
 
                 # The response appears after "### Response:".  The model has been trained to append "### End" at the
                 # end.
-                m = re.search(
-                    r"#+\s*Response:\s*(.+?)#+\s*End", fully_decoded, flags=re.DOTALL
-                )
+                m = re.search(r"#+\s*Response:\s*(.+?)#+\s*End", fully_decoded, flags=re.DOTALL)
 
                 if m:
                     decoded = m.group(1).strip()
                 else:
                     # The model might not generate the "### End" sequence before reaching the max tokens.  In this case,
                     # return everything after "### Response:".
-                    m = re.search(
-                        r"#+\s*Response:\s*(.+)", fully_decoded, flags=re.DOTALL
-                    )
+                    m = re.search(r"#+\s*Response:\s*(.+)", fully_decoded, flags=re.DOTALL)
                     if m:
                         decoded = m.group(1).strip()
                     else:
