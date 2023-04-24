@@ -28,6 +28,10 @@ Only have high end GPUs, only one available are:
 $0.60 / hr
 ```
 
+Seeing as this was the only provider I could easily get working, I have started looking into the setup with the A10.
+
+See [this doc](/cloud_gpus/1_lambda_labs.md) for more details.
+
 ## Azure
 
 Looks like there are GPUs on there, but after playing around for a bit I couldn't figure out how. You may need to set up a VM first and then add a GPU.
