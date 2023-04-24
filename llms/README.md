@@ -19,6 +19,19 @@ Fine Tuning Dataset: [databricks-dolly-15k](https://github.com/databrickslabs/do
 * [Hugging Face](https://huggingface.co/databricks)
 
 
+## StableLM
+
+Stability AI strikes again
+
+Fine tuned ✔️
+
+Parameters: 3B, 7B
+
+* [Hugging Face: stablelm-tuned-alpha-7b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b)
+* [Hugging Face: stablelm-tuned-alpha-3b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-3b)
+* [GitHub](https://github.com/Stability-AI/StableLM)
+
+
 ## Flan-T5
 
 * [Hugging Face](https://huggingface.co/google/flan-t5-xl)
