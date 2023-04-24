@@ -14,6 +14,9 @@ from benchmark_prompts import (
 
 _logger = logging.getLogger(__name__)
 
+
+_CACHE_DIR = "/mnt/raid2/transformers_cache/"
+
 _DOLLY_LIST = [
     "databricks/dolly-v2-3b",
     # "databricks/dolly-v1-6b",
@@ -44,17 +47,21 @@ def load_model(model_name: str) -> Callable[[str, int], List[str]]:
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         device_map="auto",
+        cache_dir=_CACHE_DIR,
     )
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map="auto",
+        cache_dir=_CACHE_DIR,
         # load_in_8bit=True,
     )
 
     generate_text = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer)
 
     def _generate_text(prompt: str, batch_size: int = None) -> List[str]:
-        return [o["generated_text"] for o in generate_text(prompt, batch_size=batch_size)]
+        return [
+            o["generated_text"] for o in generate_text(prompt, batch_size=batch_size)
+        ]
 
     return _generate_text
 
@@ -62,7 +69,9 @@ def load_model(model_name: str) -> Callable[[str, int], List[str]]:
 def run_benchmarks_on_model(model_name: str, batch_size: int) -> ModelBenchmarkResult:
     model = load_model(model_name)
 
-    def run_benchmark(prompts: List[str], batch_size: int, title: str) -> List[PromptBatchResult]:
+    def run_benchmark(
+        prompts: List[str], batch_size: int, title: str
+    ) -> List[PromptBatchResult]:
         _logger.info(f"Running {title} benchmarks")
         results = []
         for prompt in tqdm(prompts):
