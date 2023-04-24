@@ -29,3 +29,5 @@ Host agentc
     * `./stow_all.sh`
     * `cd`
     * `./scripts/terminal.sh`
+* Configure your project, usually you will need `tranformers`, `accelerate`, and `bitsandbytes` from pip to run quantized models
+* There was an issue with bitsandbytes, [this](https://github.com/TimDettmers/bitsandbytes/issues/156#issuecomment-1462329713) was helpful.
