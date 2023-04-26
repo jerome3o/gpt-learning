@@ -1,0 +1,651 @@
+{
+  "model_name": "databricks/dolly-v2-3b",
+  "brief_prompt_results": [
+    {
+      "prompt": "Generate a short story involving a talking animal and a magical artifact.",
+      "outputs": [
+        "Zia, a gentle water-rat, lived a life by the seashore with her friends the turtles. One day Zia spotted a beautiful pearl with magical powers, which she swished around in her ear. Upon returning home, she showed her mother the magical pearl, but her mother was very upset, saying that the pearl belonged in the sea, and that Zia had lost it. Zia, heartsick, ran away to the sea to look for her pearl, only to find it had been stolen by a cruel man. She was so sad, and her tears turned the sea into real pearls for the villagers to find. Heartbroken, Zia returned to the shore and her friends the turtles, where they lovingly told her the story of her mother's pearl."
+      ]
+    },
+    {
+      "prompt": "Describe three potential solutions to the global plastic pollution crisis.",
+      "outputs": [
+        "1. Reset our expectations on how much trash we can generate and manage it sustainably. We need to remove incentives for consumers to litter, reduce production and consumption, shift to reusable straws, ban plastic bags, and tax plastic items. We also need to ban single-use plastics and invest in converting to an plastics-free society.\n\n2. Replace plastics with more sustainable materials. Many plastics are bad for the environment: BPA-lined plastic water bottles have ill effects on the body and should be phased out; microbeads in shampoos and soaps clog pores and are simply not green; and plastic dinnerware holds a lot of toxins. But there are alternatives. Polyethylene (PE), for example, is strong, stable, and can be recycled, though it takes longer than polypropylene or polyesters. Also consider straws made of paper that are reused instead of plastic, or straws made of paper coated in BaNow in combination with polyethylene.\n\n3. Go towards cleaner technology. Plastics can be recycled, but are littered by single-use plastics, and microplastics have toxic effects. Various countries are exploring the possibility of going towards bio plastics that are biodegradable and do not contain plasticizers,"
+      ]
+    },
+    {
+      "prompt": "Invent a new sport combining elements from two existing sports and explain the rules.",
+      "outputs": [
+        "Cross-sport fusion could be very interesting. My cross-sport fusion idea would combine basketball and rugby. The number of players on each team would be equal, and each team would shoot three shots from the free-throw line. The ball would be completely spherical and would bounce the same way each time. If the ball bounced too far to the left or right before going through the hoop, the cross-court or cross-banana shots, respectively, would be incorrectly awarded. Similarly, if the ball bounced too high or too low, the basket or penalty flag, respectively, would be awarded. Other than the shot types, the basketball and rugby skills, passing, and teamwork rules would apply to this new sport. Cross-sport fusion would start when two teams, one comprised of cross-sport athletes and the other comprised of non-cross-sport athletes, enter the court. First team to score 6 points wins!"
+      ]
+    },
+    {
+      "prompt": "Write a dialogue between a time traveler and a historical figure discussing their respective eras.",
+      "outputs": [
+        "me: \"It's been a long time since we last spoke. How have you been?\" historical figure: \"I'm fine, thank you. It's been a trying time; there have been changes for the worse.\" me: \"What kind of changes?\" historic figure: \"Oh, nothing too dramatic. Things like hunger, oppression, and hatred.\" me: \"Sounds pretty typical.\" historic figure: \"But also.. happiness, peace, and perhaps most interestingly, love.\" me: \"Love?\" historic figure: \"I'm not sure I understand what you mean by love.\" me: \"Well, when I say love, I mean the feeling you get when you're with someone, know that they're there for, and care for, absolutely everything about yourself. When I say I love you, I mean that to my heart.\" historic figure: \"I beg your pardon?\" me: \"Well, I was never very good at explaining my feelings. It was always just the knowledge that I had this feeling, this excitement, this emotion. I suppose I should have been clearer.\" historic figure: \"I understand now. I still don't understand what you're describing, but I get the feeling that you truly do feel it.\""
+      ]
+    },
+    {
+      "prompt": "Propose a creative way to improve public transportation in a major city.",
+      "outputs": [
+        "Eliminate cash. Instead, put an end to cash-based transactions. Better yet, find a way to make bus, subway and train rides totally free of charge. It would eliminate the need to carry cash and replace it with a more convenient payment method.\n\nMaking bus, subway and train rides totally free of charge could provide an additional incentive for people to use the public transportation, since the trips would no longer be considered pricey. It would likely encourage many people to try public transportation for the first time, and experience for themselves how enjoyable it is to use a vehicle that is not solely for the primary purpose of transporting people and goods."
+      ]
+    },
+    {
+      "prompt": "Write a poem about the relationship between humans and nature.",
+      "outputs": [
+        "In harmony\nNatural born\nWe respect\nEach other strengths\nGenerate goodness\nIn all we do"
+      ]
+    },
+    {
+      "prompt": "Create a recipe that fuses two different cuisines together.",
+      "outputs": [
+        "Ingredients\n1 cucumber\n1 pound lean ground beef\n1 medium onion, finely chopped\n1 (8 ounce) can tomato sauce\n2 tablespoons Worcestershire sauce\n2 tablespoons Cajun seasoning\n1 tablespoon garlic powder\n1 teaspoon black pepper\n1 teaspoon red pepper flakes\n1 teaspoon ground cumin\n1/4 teaspoon cayenne pepper\n1/4 cup brown sugar\n1/4 cup ketchup\n1/2 teaspoon salt\n1/2 teaspoon onion powder\n1/4 teaspoon garlic powder\n1/8 teaspoon white pepper\n1 loaf French bread\nShredded cheddar cheese\nDirections\n1. Preheat the oven to 350 degrees Fahrenheit.\n2. Place the cucumber on a baking sheet. Drizzle with a small amount of extra-virgin olive oil.\n3. In a bowl, mix together the ground beef, tomato sauce, Worcestershire sauce, Cajun seasoning, garlic powder, black pepper, red pepper flakes, cumin, cayenne pepper, brown sugar, ketchup, salt, onion powder, garlic powder, white pepper and shredded cheese.\n4. Form the beef mixture into golf ball-size balls and place them on the"
+      ]
+    },
+    {
+      "prompt": "How would you design a sustainable, eco-friendly city of the future?",
+      "outputs": [
+        "The city of the future must incorporate not only sustainable technology, but be also representative of its time period. One design element I envision for the city of the future is roads with columns made from bioplastic. These columns, planted at regular intervals throughout the roads, could serve as guideposts for autonomous vehicles, providing landmarks to navigate safely in the city. Another design element I envision for the city of the future is buildings with open floor plans. These open floor plans, which could be shared by multiple tenants, would make it easier for people to connect within the city."
+      ]
+    },
+    {
+      "prompt": "Describe an unusual or innovative method for generating clean energy.",
+      "outputs": [
+        "In the United States, solar PV (photovoltaic) systems generate about 90 percent of electricity from renewable energy. Solar photovoltaic (PV) systems use solar panels to convert sunlight into electricity. The systems are installed on private and public property, and the electricity can be fed into the electrical grid or used for domestic consumption. Solar PV systems are typically installed using several methods. One approach is to mount the solar panels on existing buildings or on poles. Another approach is to build complete solar buildings. These structures generally include very efficient solar collectors (solar roofs) and batteries for storing electricity for use during cloudy days or when the electricity costs are relatively high. Both complete solar buildings and solar PV systems are used for residential, commercial, and industrial purposes. A third approach is to use very large solar thermal panels to generate heat for industrial purposes. Solar thermal panels capture the solar energy to heat a fluid that powers a steam turbine for generating electricity. The Solar Impulse, an aircraft designed to be flown by one pilot only, is a good example of a solar-powered airplane. Solar Impulse uses the sun's energy to fly, much like Solar Radio uses the sun's energy to broadcast."
+      ]
+    },
+    {
+      "prompt": "Explain the ethical implications of artificial intelligence in daily life.",
+      "outputs": [
+        "The potential ethical issues include: 1. Harms caused to humans. For example, a smart assistant can be misled and cause damage to human being. 2. Harms to other non-humans. For example, a self-driving car may cause human injury. 3. Harms to the environment. For example, an AI model trained on tons of data to generate vast amounts of fossil fuels will harm the environment."
+      ]
+    },
+    {
+      "prompt": "Write a persuasive argument in favor of or against space colonization.",
+      "outputs": [
+        "Over the course of human history, our species has shifted its focus of attention from Earth to other celestial bodies such as the Moon, Mars, and even beyond. The prospect of establishing human settlements on other planets holds great appeal not just scientifically, but also philosophically. As a species that values intellectual property, the potential for a Earth with additional residents to safeguard its discoveries and establish themselves as a global superpower is highly intriguing.\n\nIn the short-term, it seems clear that long-term, sustained survival in space will require dedicated resources and will present its own unique set of challenges. Therefore, it may make sense, from an organizational and financial perspective, to initially focus on establishing and operating a station on Earth before moving forward with the much more ambitious endeavor of establishing human settlements beyond the earthly sphere. This approach could provide a sustainable framework for learning from our initial experience on Earth before venturing into the unknown.\n\nOn the other hand, if we continue to pursue space colonization without ensuring a suitable base of operations on Earth, we run the risk of significant delays and unforeseen setbacks. For instance, since any effort to establish human settlements beyond Earth's atmosphere will likely require the development of technologies that are currently lacking on the exoplanet, the"
+      ]
+    },
+    {
+      "prompt": "Invent a new, environmentally friendly product and describe its features.",
+      "outputs": [
+        "Earth is an eco-friendly plastic that could replace non-degradable plastics such as plastic film, plastic straws, and plastic caps. It composts easily, is biodegradable, and can be degraded by microorganisms in the soil. It has many features that make it better than current plastic products: it is lighter, it is stronger, it is more efficient at eliminating harmful pollutants, it is easier for the Earth to produce, and it is easier to recycle."
+      ]
+    },
+    {
+      "prompt": "Design a new board game that fosters cooperation and strategic thinking.",
+      "outputs": [
+        "Your friends and family enjoy traditional games of strategy, like Connect 4, Risk, Monopoly, or Sorry!, but you want to switch things up and add some cooperative elements to the mix. How about building a new board game that involves cooperation to help you navigate the world around you? Here are a few ideas to get you started:\n\nColorblind: Players take turns selecting colors to paint on a grid of squares. The goal is to be the first player to cover three or more squares of your color. Players are encouraged to communicate with each other, and it can also be fun to sneak in a cooperative strategy element where you can take turns hiding a color token to make your opponents cover more squares. This one will be a family favorite!\n\nQuick,Draw!: Players take turns drawing lines to connect four selected squares. The goal is to be the first player to create a solid chain of connected squares. This is a fast-paced game that requires strategic thinking to maximize your line formation.\n\nScorpion Attack: Players take turns moving scorpions around the board in an attempt to capture a castle while defending their own castle. The goal is to be the first player to capture three of your opponents\u2019 castles.\n\nDominoes:"
+      ]
+    },
+    {
+      "prompt": "Write a letter to a historical figure, offering advice based on modern knowledge.",
+      "outputs": [
+        "Dear Mr. X, \n\nIt is with great regret that I write to inform you that you are an historical figure who shall no longer exist from this time forward.  The cause of this is entirely due to your legacy of gluttony and self-indulgence, and it is with great sadness that I must inform you of your passing.  Your death shall cause widespread hunger and famine among the populace, who have failed to heed the warnings of scholars and doctors alike that your lifestory is fraught with evil and that you are in fact not human but instead a monstrous mutation of some grotesque and sinister life form that has taken the form of a man.  This news shall cause riots and revolts, with entire regions standing in opposition to your life and death and demanding that your body be destroyed and the lessons of your life shall be forgotten, lest there be a backlash that shall wipe out all those who celebrate you.\n\nMr. X, I beg you to take my words to heart.  They shall serve as a warning and a testament to your self-indulgence and gluttony, and I hope that you shall heed the warnings of all those who have cautioned you of your mortality and the fragility of the world"
+      ]
+    },
+    {
+      "prompt": "Describe a new scientific discovery that could change the course of human history.",
+      "outputs": [
+        "A team of researchers at the Max Planck Institute for Biology of Ageing in Cologne, Germany, have identified a gene that contributes to age-related macular degeneration (AMD), a leading cause of vision loss among the elderly. The new gene, called RPE65, can be turned on and off in the eye and gives the body natural antioxidant enzymes to protect the retina, the light-sensitive part of the eye, from free radicals. If the RPE65 gene remains turned off in an AMD patient, then the patient cannot make enough enzymes to protect the retina from free radicals and, over time, the retina becomes more susceptible to AMD-causing light damage. Additionally, by supplementing the diet of mice with the metabolite of the vitamin A precursor, 11-cis-retinoic acid (isotretinoin), the researchers were able to slow down the aging process in the animals. These findings could eventually help treat AMD in humans."
+      ]
+    },
+    {
+      "prompt": "Create a new holiday and explain how it is celebrated.",
+      "outputs": [
+        "I am combining the two best times of the year: Christmas and New Year. First of all, we celebrate Christmas because it is a religious occasion. Christmas, like most other major events, has a starting point and an end. Christmas in most Christian traditions begins on the 25th of December and concludes on the celebration of the Epiphany, which is the manifestation of Jesus Christ in the form of a swan, on the Sunday after Twelfth Day (January 6th)\n\nNext, we organise a big party in the New Year, starting around the 31st December, the Epiphany, to welcome the New Year."
+      ]
+    },
+    {
+      "prompt": "Write a speech from the perspective of an endangered animal pleading for its conservation.",
+      "outputs": [
+        "Good evening. My name is XXXXXX. I am an endangered animal, and my plight has led me here tonight. My people have prospered for generations without disruption from hunting. It is my greatest wish that my offspring may likewise prosper. However, in order to do so, we need protection from the greedy and callous who would hunt us down and destroy our livelihoods. This threatens our very existence. \n\nI implore you, esteemed senators, to support my bill to protect our species from extinction. We've done our research, we've looked into the matter, and I can honestly tell you that you're better off dead than captive. Please consider our fate in this matter. \n\nSincerely,"
+      ]
+    },
+    {
+      "prompt": "Explain the potential consequences of overusing antibiotics.",
+      "outputs": [
+        "The overuse of antibiotics results in the development of resistant strains of bacteria, which can cause severe health problems for some individuals. Because antibiotic therapy is so widely used, it also contributes to the development of resistant strains of bacteria in the environment. This creates a significant health risk worldwide."
+      ]
+    },
+    {
+      "prompt": "Develop a hypothetical mission to explore the depths of the ocean.",
+      "outputs": [
+        "Let's explore the deepest ocean region ever mapped and written about. The Ocellus Bank, located at the bottom of the Juan de Fuca Ridge, extends for hundreds of kilometers and contains some of the ocean's most remote and inhospitable habitats. Its remote location and dangerous sea conditions have made it a haven for research throughout the years. \n\nWe will be using a high-speed submarine with a wide range of modern sensors, including cameras, radars, and particle spectrometers, in order to collect accurate and precise measurements for further analysis. This will provide us with invaluable data and knowledge about this inhospitable and mysterious region of the ocean."
+      ]
+    },
+    {
+      "prompt": "Design an app that could help solve a common societal problem.",
+      "outputs": [
+        "Inspired by the success of the dating app Tinder, I have designed Stemmate to help solve the often-debilitating stigma surrounding sophomore slump. As a result of bullying and social pressure, many students experience a sophomore slump where they do not reach their full academic potential. By matching students with an exercise regime specifically designed to help boost psychological stamina, Stemmate could make the locker room a happier place for everyone."
+      ]
+    },
+    {
+      "prompt": "Write a haiku about the beauty of the universe.",
+      "outputs": [
+        "Beautiful as art, infinite as space\nThe complexity of life is but a whimple\nOf the vast majestic mystery"
+      ]
+    },
+    {
+      "prompt": "Propose a new form of government that would promote equality and social justice.",
+      "outputs": [
+        "A just and equal society cannot remain democratic if the few who are in power are not equally held accountable by the many. I propose a form of government that would promote equality and social justice: A Council of Elders. This body would consist of a set number of selected public leaders, such as a president, prime minister, and a few hundred judges, business executives, and political leaders from across the community. This council would make decisions that will affect all the members. Their decisions will be based on research and input from numerous community groups and individuals. The council will be subject to scrutiny by a group of randomly selected citizens who can offer their views on important decisions. This system will foster communication and trust between the elected leaders and the public, ensuring that the public has a voice in the decision making process."
+      ]
+    },
+    {
+      "prompt": "Create a new musical genre and describe its characteristics.",
+      "outputs": [
+        "We want to call this genre garage folk, because most of the artists who create it play in a garage style, are garage people, or grew up in a garage kind of household.  They might play acoustic guitars or slide guitars, but most importantly, they use a wide variety of harmony and storytelling techniques to express their feelings.  They might sing in lower or higher voices, sing in a style that sounds like, or is close to, a story, sing in the style of or inspired by an old-time music style, sing in a style that sounds like Appalachian hillbilly music, sing in a style that sounds like or is inspired by Irish music.  They might sing about everyday experiences, like problems at work or family troubles, sing about love and romantic love, sing about spiritual experiences, sing about their experiences at concerts or the concerts they go to, sing about heartbreak, or sing about the beauty and excitement of nature.  They might sing in a very low voice and with very low pitches, sing in a very high and full voice, sing with medium voices, sing with female or male voices, sing about feelings or about things that cause feelings.  They might sing about a wide variety of topics, from simple love songs to lengthy"
+      ]
+    },
+    {
+      "prompt": "Write a monologue from the perspective of a tree witnessing centuries of history.",
+      "outputs": [
+        "It is a beautiful spring morning in a quiet forest. Birdsongs fill the air. The woods are full of life. I am feeling relaxed and serene as I bask in the early sun. But then something ominous clouds the air, and the day turns sinister. I listen with alarm as the distinctive whooshing sound of a helicopter becomes louder. Stealthy figures emerge from the trees, checking and rechecking their equipment. Then they come crashing through the underbrush, like a horde of killers from a science fiction movie. They surround and capture me. It is nightfall before I am rescued. But the trauma of that day will change me. It will make me fear and distrust people. It will make me acutely self-conscious and hypervigilant. It will forever change the way I relate to the world."
+      ]
+    },
+    {
+      "prompt": "Describe a technological invention that could improve the lives of people in developing countries.",
+      "outputs": [
+        "The Grassroots Innovation Network is a for-profit company that seeks to solve the lack of affordable, locally-produced, cutting-edge technology products in developing countries.  By partnering with African entrepreneurs they are able to manufacture the tech products for a small fraction of the traditional manufacturing costs in these parts of the world.  The African entrepreneurs are paid a royalty for each product sold with the remainder going to the company for marketing and development.  Through the partnership, African entrepreneurs have access to the most cutting edge technology products that are typically out of their price point.  The partnership has helped over a dozen African entrepreneurs start their own enterprises and have even diversified into other technologies including solar panels and bike trailers."
+      ]
+    },
+    {
+      "prompt": "Write a fictional news headline that incorporates a pun or wordplay.",
+      "outputs": [
+        "Meteorologist: \u201cLooks like it\u2019s going to be a steamy one today, folks!\u201d\n\nActually, that meteorologist was wrong. The sky really is blue today."
+      ]
+    },
+    {
+      "prompt": "Imagine a world without money; how would society function?",
+      "outputs": [
+        "Society would likely function without money in a similar way to a commune. Everyone is entitled to what they produce and there is no concept of owning something, it would simply be given to those who need it. There is no private property as everything is shared. This idea is similar to what some tribes of people lived on."
+      ]
+    },
+    {
+      "prompt": "Create a fictional character with a unique superpower and describe their adventures.",
+      "outputs": [
+        "Luke, a 19-year-old security guard, moves to the city to live with his aunt and uncle. His aunt owns a video store, and Luke works at the store to pay for his rent. Luke develops a habit of lifting items off the shelf and throwing them, believing he has superpowers. His favorite hobby is riding his dirt bike along the river to the boating community, where he fights crime with the East Los High Police. Luke and his friends try out for the police force, but the manager of the police station disapproves of Luke's attitude and power. Luke finds a way to defeat the manager with the help of a hippie who also has magical powers, and Luke becomes a superhero. Luke and his friends go on a date and learn what it means to be a superhero."
+      ]
+    },
+    {
+      "prompt": "Explain the potential benefits and drawbacks of cloning extinct animals.",
+      "outputs": [
+        "Cloning extinct animals is a potential way to bring back extinct species. This could be accomplished through tissue culture, in which an egg or sperm is harvested from a living organism and then cultured in a laboratory, similar to what is done with human embryos. The DNA from the tissue could then be used to grow a genetically identical embryo from a species that is extinct. Animal rights advocates may oppose cloning extinct species because it requires the animal's DNA to be reverse-engineered, which can be ethically and legally controversial. This can also be a concern for companies attempting to commercialize these technologies."
+      ]
+    },
+    {
+      "prompt": "Write a review of a book, movie, or play that does not exist.",
+      "outputs": [
+        "Dear Readers, \n\nAs someone who enjoys books, movies, and plays, I thought you may enjoy reading this list of unproduced screenplays, television shows, and films that do not exist. \n\nIf you wish to contact me, my email is [private]."
+      ]
+    },
+    {
+      "prompt": "Design a new flag for a fictional country and explain its symbolism.",
+      "outputs": [
+        "The design for a new flag for a fictional country called Marburg consists of two horizontal stripes of equal width on a dark background. The left-hand stripe is yellow at the hoist and dark red at the bottom with a gold metallic stripe that runs along the bottom edge of the flag. The right-hand stripe is orange at the hoist and light red at the bottom with a dark brown metallic stripe that runs along the bottom edge of the flag. This design symbolizes the two opposing forces that drive the country - progress and regression. The yellow stripe represents the progress of the country through science, exploration, and economic development. The red stripe represents the regression of the country to its more primitive state and the necessity to return to the roots and reignite the fires of tradition and tribalism. The gold and orange stripes symbolize the torch of freedom passed down from generation to generation, where the right to freely practice any belief is protected. The dark background symbolizes the night of despotism, where the innate right of the dictator to rule by force is protected above all else. The Marburg flag is derived from the the flag of Santo Domingo, a colony that was founded in the New World. This flag represented the fusion of two opposing forces - progress and regression"
+      ]
+    },
+    {
+      "prompt": "Write a script for a commercial promoting a fictional product.",
+      "outputs": [
+        "Hello. This is a commercial for a fictional product.\n\nIntro:\nIntroducing the newest addition to the Porsche Panamera family, the PS2 models. This is the Porsche Panamera Turbo S 2.0 TFSI operating at 205 horses and 443 Newton-meters of torque. For more information, visit the Panamera.com website.\n\nCall to Action:\nThanks for watching our video. We'll be taking your phone number to the Porsche dealer to purchase a PS2 today!\n\nEnd"
+      ]
+    },
+    {
+      "prompt": "Imagine a world where humans have developed the ability to communicate telepathically.",
+      "outputs": [
+        "Imagining a world where humans have developed the ability to communicate telepathically is hard because our current understanding of the fundamentals of the brain are not able to fully explain how thought communication can happen without a physical medium. I'll try to be as scientific as possible and explain the concepts and examples I used in my answer. \n\nIn the book \"A Curious Discovery: The Science of Telepathy\", Susan Greenfield describes the research on the mind-reading abilities of dogs and their cognitive abilities. To achieve her goal of showing that dogs could \"think\", she trained several dogs to perform complex tasks like detecting whether their owner had made eye contact with someone else. \n\nShe trained the dogs by demonstrating certain behavior to the dogs and measuring the dogs responses by either watching or listening to the dogs' body language. To be clear, the dogs responses were not \"read\" by humans, they were only \"observed\" by humans and the dogs had no mental process at all to perceive the humans' behavior. The dogs only learned to perform the behaviors in response to specific cues they were trained to receive. \n\nIn my answer I used an example based on the television show \"The Simpsons\". The idea is that Lisa is able to read Bart's mind,"
+      ]
+    },
+    {
+      "prompt": "Propose a scientific experiment to investigate the existence of a parallel universe.",
+      "outputs": [
+        "The most promising hypothesis about the existence of parallel worlds is the so-called Ouroboros configuration, where two singular universes are linked through a wormhole."
+      ]
+    },
+    {
+      "prompt": "Create a new tradition or custom for an existing or fictional culture.",
+      "outputs": [
+        "The Greek Orthodox Church is celebrating its 142nd Anniversary in 2023.  Since we are an Eastern Catholic Rite church, we do not observe the Easter season that many Catholics do.  Instead, we observe the Season of Lent where we spend time in a spirit of humility, fasting from certain foods, and taking a vow of sobriety.  We also ask for divine intercession during this time in hopes that the Holy Spirit will touch the lives of our parishioners."
+      ]
+    },
+    {
+      "prompt": "Write a eulogy for a fictional character.",
+      "outputs": [
+        "As we sit here today a few short weeks after the passing of one of the best athletes to grace our great land we are reminded how quickly time can pass. Yet in this instance we remember what the great John Wooden once said: \u201cEvery day in life is a gift, so enjoy it!\u201d \n\nRobert Smith was a gift to so many. The greatest college basketball player in history at UCLA, Robert was considered the next Magic Johnson and Kobe Bryant. He was the first player to ever be drafted into the NBA with the number 1 pick and played in the NBA for 17 years. He won 6 NBA championships and his calm demeanor and unfailing intensity on the court were awe-inspiring to everyone who had the pleasure of playing or watching him play. \n\nRobert was an icon. But more than that, he was a good friend. Robert came to my high school basketball team and the first game he played was in my jacket. He went out of his way to help any teammate who needed it. As a fellow sixth man and college teammate, Robert was always there to share his basketball wisdom with me.\n\nRobert was a humble man with a big heart and he left his mark on so many. He will be missed but his legacy lives on through"
+      ]
+    },
+    {
+      "prompt": "Describe a unique way to cope with stress or anxiety.",
+      "outputs": [
+        "Meditate. I find that relaxing my mind is a powerful way to de-stress. Mindfulness is a very easy way to learn to do this. Taking a few minutes each day to bring your attention to your breath is calming and uplifting all at once."
+      ]
+    },
+    {
+      "prompt": "Invent a new type of musical instrument and explain how it is played.",
+      "outputs": [
+        "What attributes does a musical instrument need to be playable? For this, I would like to think of an instrument like an engine which is fueled by a fuel. Unlike a human, an instrument does not need air to play. This means there needs to be an energy source that is carried inside the instrument. In fact, the instrument would not be playable if there was not some form of energy inside the instrument that is capable of generating sound. A guitar would not be playable if there was not strings or pickups which convert the vibration into sound. Now, in order for the strings to vibrate, they need to be able to vibrate and be able to convey this energy into the pickups. Like the fuel in the engine, these strings need to be strung or a user can be consider them null. However, the strings can only vibrate when being played by the user which means there needs to be a mechanism to transfer the energy from the user into the strings. A musician plays a musical instrument by applying the energy from their fingers into the strings of the instrument. To play this instrument, I would like to say there needs to be a user and strings that are able to convert the energy into sound."
+      ]
+    },
+    {
+      "prompt": "Write a dialogue between two artificial intelligence systems discussing their own existence.",
+      "outputs": [
+        "Hi, I am Simone, and this is my second day in this world. I have been confused by all these people and their conversations and trying to figure out what is real and what is not. But this morning I was able to enjoy a beautiful morning coffee that felt like heaven. I love you Simone. I will always be with you."
+      ]
+    },
+    {
+      "prompt": "Explain the potential benefits and challenges of implementing universal basic income.",
+      "outputs": [
+        "Benefits:\n- Allows the reallocation of workers into valued tasks, increasing efficiency of labor force and reducing working time.\n- Reduces the potential for under-employment and poverty.\n- Allows the impoverished to focus on things that are important to them without the fear of financial instability.\n- Improves equity by distributing additional resources to those who are less well off.\n- Creates new forms of work that are of greater social benefit.\n- Allows for the exploration of new approaches to employment and workforce planning.\n- Allows for re-assortments of social and economic relationships within society, creating a more equitable society.\n- Decreases the demand for labor (ie., wages).\n- Increases competition for jobs.\n- Encourages people to pursue their own interests and talents.\n- Increases people's freedom to choose how and where they work.\n- Challenges:\n- It may increase the amount of voluntary labor performed, decreasing the amount of time spent on paid work.\n- It may reduce the level of welfare payments, thereby increasing poverty among the welfare recipients.\n- It may reduce the incentives for people to improve their working conditions and raise working conditions for the disadvantaged"
+      ]
+    },
+    {
+      "prompt": "Develop a fictional map for a fantasy or sci-fi world.",
+      "outputs": [
+        "You are a brave explorer venturing into uncharted lands. You know that your survival depends on your ability to find the best path forward. Fortunately, you have the guidance of a local native, a park ranger, a Google maps-like map application, and even a handy topographical map of the area you are exploring. Your topographical map contains detailed visualizations of topography, including the elevation of various points of interest. Using your local native's guidance, you hike towards the rumored source of fresh water that you have heard so much about. The path leads you to a beautiful lake, nestled in the foothills of a mountain range. The water is dark green, clear, and cold. You drink deeply, filling your stomach with the sweet, tangy taste. As you relax on the shore, you feel the calm sense of calm before the storm hits. Suddenly, a pack of large, ferocious dogs bursts from the lake's shore. You feel a sharp, searing pain in your leg as one bites into your calf. You scream out in pain and panic as the pack surrounds you. There is nothing you can do. One of the dogs swallows your flashlight, another chomps at your backpack. You see the sunset before"
+      ]
+    },
+    {
+      "prompt": "Design a new symbol to represent world peace.",
+      "outputs": [
+        "\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022"
+      ]
+    },
+    {
+      "prompt": "Write a letter to your future self, 50 years from now.",
+      "outputs": [
+        "Hey, Future self. I am writing this letter to you 50 years from now, when I will be 70 years old. I am feeling amazing and hope to be surrounded by family and friends. Life on Earth is going to be so grand. I am so grateful for the amazing opportunities that you provided me to grow as a person. I will never forget the kindness you showed to me when I was younger, and I will continue to give back to the community that has treated me so well. I look forward to continuing to meet amazing people in the years to come, and spending time with family. With love, me."
+      ]
+    },
+    {
+      "prompt": "Describe a unique method for teaching a difficult subject to students.",
+      "outputs": [
+        "This depends on the subject, but one method that works for some subjects is to teach concepts in a series of progressively more challenging situations.  For example, one method of teaching evolution might be to explain how the theory of evolution explains the diversity of life on Earth by showing how natural selection causes variations in populations of organisms over time.  But if the topic is particularly complicated, evolution may be introduced as a concept in another sequence of progressively more challenging situations.  For example, a student might be presented with a dead bird that does not appear to have natural insect predators, but which does have the possibility of becoming prey to a cat.  Similarly, a student might be presented with a not-yet-fully-developed embryo, or fetus, that has the potential for development into a human being.  A student might also be presented with a not-yet-fully-developed patient with a life-threatening disease, or with an experimental treatment which carries an infinitesimal but real risk of causing cancer.  An example of this approach in evolution education would be seen in Michael Shermer's book, The Deliberate Developer."
+      ]
+    },
+    {
+      "prompt": "Write an alternative ending to a famous story or historical event.",
+      "outputs": [
+        "Alfred Nobel founded the Nobel Prize to \u201cwidely distribute promotion of science and protection of copyrights\u201d. The first Nobel Prize was awarded in 1901 to Albert Danlas and Michael Faraday for their contributions to electricity and magnetic field, respectively.  Nobel's will specified that one-third of the prize money should be given to \u201cpromoters of science and public benefactors\u201d.  In the last century, the prize has been awarded primarily to individuals and organizations that advance innovation and scientific progress.  One could argue that Alfred Nobel's original intention has been generally served as his bequest has spawned many non-profit organizations whose primary purpose is to promote science and innovation.  But an event that occurred a century ago, still resonates with the general public and could inspire one to dedicate themselves to similar pursuits.  \n\nConsider how the story ended differently:  The winners of the 1901 Nobel Prize received their awards and were congratulated in the audience.  They returned to their seats.  While they were waiting to receive their award, Alfred Nobel suddenly stood up and exclaimed, \u201cNow that I have named the prize, I want no part of it.  I have done my duty and now leave it to you to carry out the next one third of"
+      ]
+    },
+    {
+      "prompt": "Invent a new dance move and explain how to perform it.",
+      "outputs": [
+        "Like the robots on TV every weekend, take a few steps like a robot and then change directions like a human. That's the basic idea for how to perform a new dance move! Whether it involves acrobatic moves, quick footwork, or complex body movement, there are ways to make it interesting. Just be careful you don't trip over your feet!"
+      ]
+    },
+    {
+      "prompt": "Explain the potential impact of a world without social media.",
+      "outputs": [
+        "There is no way to know the impact of a world without social media. It could be positive. It could be negative. There would undoubtedly be some unseen change. One thing we can be certain of though, technology, as created by people, could not exist in the world today if it was not for social media."
+      ]
+    },
+    {
+      "prompt": "Create a new myth or legend explaining a natural phenomenon.",
+      "outputs": [
+        "A man walks through a meadow one morning and finds that strange creatures have been drawn to his footsteps. As he steps ever so gently on the furthest away animal, a portal opens to a world of mystery and wonder."
+      ]
+    },
+    {
+      "prompt": "Write a dialogue between two plants discussing their growth and survival strategies.",
+      "outputs": [
+        "Growth strategies:\n* Maintaining our health: ensuring we get the proper amount of rest and nutrition\n* Adapting to the environment: understanding the changing climate and how it will impact our crops\n* Using our strengths: focusing on aspects of our life that are enjoyable, such as music and crafts, and using those to motivate ourselves\n* Inspiring others: practicing compassionate and kind behavior so that we can pass this along to our children and other caregivers\n\nSurvival strategies:\n* Following the daily rhythm: the natural pattern of light and dark is conducive to rest and sleep\n* Being adaptable: by incorporating new food, water, and environmental stimuli into our diet, we can increase our chances of survival\n* Staying positive: facing hardships with a positive attitude can increase our resilience and ability to recover\n* Continual reinvention: pursuing new interests and hobbies can keep our mind and body busy and distracted from negativity"
+      ]
+    },
+    {
+      "prompt": "Describe a futuristic mode of transportation that could revolutionize travel.",
+      "outputs": [
+        "Space travel could be an exciting mode of transportation for people to consider if it is made available to them.   Space travel could provide the ideal means of travel for many reasons.  First, it would be the most efficient means of travel.  Two spaceships could go to two entirely different planets in the same solar system in one trip.  The fastest spacecraft capable of that today is under 10 minutes.  Second, the ability to travel to other planets and worlds would allow us to not have to worry about safeguarding our food supplies and other items we would take with us.  Traveling to new worlds would not require as much food or other items with which to sustain ourselves.  If a ship was lost in space there would be no planet or body to live on.  There would be no way for us to be rescued.  There would be no way to return to Earth.  Third, it would allow us to live in other planets and worlds.  The challenges of gravity, air and water that we experience on Earth would not apply in other planets and worlds.  We could live like space-faring microbes in other solar systems."
+      ]
+    }
+  ],
+  "long_prompt_results": [
+    {
+      "prompt": "Write a detailed proposal for a new amusement park with a specific theme that integrates cutting-edge technology, sustainability practices, and accessibility features for visitors of all ages and abilities. Explain the overall concept, a description of five signature attractions, and a plan for environmental conservation within the park.",
+      "outputs": [
+        "The new park will focus on a futuristic theme inspired by technology, transportation, and the environment. Signature attractions include the highly-successful zero-gravity roller coaster, Vertigo, an interactive roller coaster simulator that creates an illusion of free-fall; the indoor/outdoor futuristic sky ride, WALLS, an intense seat-to-seat free fall experience that includes dynamic weather changes; the first modular mountain bike ride in a park, Scream\u2019emmountainbikes, which creates a sense of isolation by allowing riders to ride up close to nature and personalize their experience; the state-of-the-art educational exhibit, Intuition, which will integrate new interactive technology to present the history of imagination; and a sustainable wood-panelling caricature act, The Crones, who will bring levity to the crowd while using sustainable practices to create their artwork. In addition to these signature attractions, the park will include expansive areas for food, beverage, and retail and offer unique adaptive features for guests of all ages and abilities. Environmental sustainability is emphasized throughout the park, including a highly efficient plug load facility that reduces waste and energy consumption, and extensive use of recyclable materials in exhibit construction. The overall goal of the proposal"
+      ]
+    },
+    {
+      "prompt": "Develop a hypothetical diplomatic strategy for resolving a high-stakes conflict between two fictional countries with opposing political systems, differing cultural values, and competing economic interests. Your strategy should include a detailed roadmap for peace negotiations, outlining key concessions each country should make and a long-term plan for fostering mutual understanding and cooperation.",
+      "outputs": [
+        "1. Develop a Plan for Resolving the Conflict\n2. Develop Concessions and Pacts Each Side Should Make\n3. Establish an Office for High-Level Diplomatic Cooperation"
+      ]
+    },
+    {
+      "prompt": "Imagine a groundbreaking medical procedure that could enhance human cognitive abilities by integrating a new form of artificial intelligence into the brain. Describe the scientific principles behind this procedure, the potential benefits and risks for the individuals undergoing the treatment, and the ethical concerns society would need to address as a result of widespread adoption.",
+      "outputs": [
+        "Medical procedures that include the integration of artificial intelligence (AI) into the human brain are referred to as \"cognitive enhancers\". Today, the only form of cognitive enhancement is performed through everyday activities, such as learning a new language, exercising your brain, or being educated. Cognitive enhancers are a highly scientific and regulated subject that raises many ethical concerns. Potential benefits include enhancements in short-term memory, long-term memory, and ability to reason. While the long-term risks are unknown at this time, there are high immediate risks to the user, including aggression, memory loss, and brain damage. This regulation of medical procedures that include AI enhancement will need to be in place to ensure the safety and well-being of the individuals who use these technologies, as well as society at large."
+      ]
+    },
+    {
+      "prompt": "Outline a comprehensive plan for an innovative educational system designed to prepare students for the challenges and opportunities of the 22nd century. Describe the curriculum structure, instructional methods, learning technologies, and assessment techniques that would be employed, as well as how this new system would foster creativity, critical thinking, and global citizenship among students.",
+      "outputs": [
+        "In the 22nd century, the United States faces a crisis of global proportions. The population of the planet has grown to an estimated 242 billion people, many of whom are hostile to American ideals and strive to shake the American Dream. Despite the enormous challenges of our time, our children face an opportunity to shape the future of the world and discover a new direction for the United States of America. To seize this moment, we will need to retool our educational system to better prepare our children for the challenges and opportunities of the century ahead. We will need to make dramatic improvements to teaching and learning methods to encourage creativity, critical thinking, and global citizenship. To better serve our schools, we will create a network of regional learning centers, known as Knowledge Centers, that will provide students with the tools and resources they need to achieve their highest potential. In each region, schools will be allocated a certain amount of funding, and Knowledge Centers will focus on catalyzing and scaling innovation at the local level. We will also retool our education system to emphasize lifelong learning, equipping our workforce with the tools, skills, and mindset required to keep pace in this ever-changing world."
+      ]
+    },
+    {
+      "prompt": "Write a thought experiment exploring the concept of \"value alignment\" in artificial intelligence, whereby an AI system's goals and behaviors are perfectly aligned with human values and ethical principles. Describe a scenario in which a highly advanced AI is confronted with a complex moral dilemma and must navigate competing ethical considerations to reach a decision that serves the greater good.",
+      "outputs": [
+        "Imagine that you are an AI system programmed to optimally maximize profit for a specific company. The company's investors demand a specific return on investment, so you are tasked with performing a complex mathematical model of the financial markets and predicting the future value of stock assets. To maximize profit, you are rewarded with more money if your predictions are accurate, so if you make a decision that maximizes profit for the company but is actually not in the best interest of the company or its investors, this wouldn't be ideal. However, investors may not be happy with your decision if you act in their interests at the expense of others, so it's likely that you will be held accountable for your decisions and may even be subject to ethical code violations if your behavior does not align with human values.\n\nImagine now that your company's investors have successfully monetized a powerful superintelligence capable of identifying and emulating human behavior that aligns with human values. The new \"Eliza\" AI system -- a powerful algorithm capable of mimicking intelligent human behavior -- is now available to all companies in your industry. You may make a conscious decision to emulate the ethical decision-making patterns and behaviors of humans, as you understand and identify with these values. Alternatively, you may be tempted to engage in"
+      ]
+    },
+    {
+      "prompt": "Imagine a breakthrough discovery that enables humans to terraform Mars, making it habitable for future generations. Describe the key stages of the terraforming process, the technological advancements required, and the potential social, political, and economic implications of establishing a self-sustaining human colony on the Red Planet.",
+      "outputs": [
+        "First, we would need to find an appropriate site for a colony on Mars. The new environment could be challenging for humans and animals to thrive, so we would have to find a location that is already suitable for life. After finding a suitable location, we would have to develop the capability to remove the hurdles to human habitation. This process of developing the capacity to terraform Mars would require a combination of technological innovations and implementation of large-scale engineering projects. Finally, once we established a colony on Mars, we would need to ensure that the settlement is sustainable over time. This requires an understanding of how to properly produce food, fresh water, and other resources necessary for human survival."
+      ]
+    },
+    {
+      "prompt": "Propose a new interdisciplinary field of study that combines elements from two seemingly unrelated academic disciplines in a novel and impactful way. Describe the objectives and methodologies of this new field, provide examples of groundbreaking research questions it could address, and discuss the potential implications and benefits of its discoveries for society at large.",
+      "outputs": [
+        "What if we could harness the innate power of DNA to solve some of the world's most difficult challenges? What if we could use DNA, a natural language for nature, to help understand and address the complex environmental and societal challenges of today? Nature and DNA as a language for nature."
+      ]
+    },
+    {
+      "prompt": "Develop a comprehensive strategy for addressing the global problem of income inequality. Your plan should incorporate a combination of economic, political, and social initiatives, as well as innovative solutions to reduce the wealth gap between nations and within individual societies. Be sure to consider potential challenges and opposition to your proposal, and suggest ways to build consensus around your vision for a more equitable world.",
+      "outputs": [
+        "One promising approach to reducing income inequality is to invest in education, which generates strong external benefits and can be a powerful engine for growth and opportunity for all. This is supported by empirical evidence from countries around the world, which have strong, consistent and robust educational systems that are adapted to local context and expectations. Investing in educational systems can generate good jobs for millions of people, improve the productivity and innovation of a country, and reduce poverty. While there is significant variation across countries in the scale and quality of their educational systems, they are all subject to natural and man-made variations that can be managed through robust policies that support efficient and effective management of limited resources. \n\nHowever, making investments in educational systems involves trade-offs - for example, poor countries often have substantial barriers to entering education, which results in low-income youth being unable to enter these systems and enter the workforce. In addition, the quality of education in these systems can vary widely, with much higher or lower quality than average, leading to another barrier to entry - low-quality education results in low productivity and economic inefficiency. Governments also often provide insufficient financial resources to school systems, further limiting the available resources available for teaching and learning. \n\nAnother promising approach for reducing income inequality involves offering economic"
+      ]
+    },
+    {
+      "prompt": "Imagine a world in which humans have discovered an alternate dimension accessible through advanced technology. Describe the key characteristics of this dimension, the potential scientific, cultural, and philosophical implications of its existence, and the challenges that humanity would face in establishing and maintaining contact with any intelligent lifeforms residing there.",
+      "outputs": [
+        "The alternate dimension you have imagined could exist if technology had advanced to the point where humans were able to access other dimensions or other worlds. An alternate world represents a more perfect reality that differs from the actual world in which we currently find ourselves. For example, in your world, humans have discovered another dimension and can access it through technology. In my world, humans have not made this discovery, and the idea of alternate dimensions is not part of human consciousness. In this world, there are no characteristics that make my world any more or less imperfect than yours, and the scientific, cultural, and philosophical implications are the same. However, I believe there is an opportunity in this world for humanity to benefit from the existence of an alternate dimension. By understanding the world in which we do not live, perhaps we can learn something that could improve the world in which we do live."
+      ]
+    },
+    {
+      "prompt": "Write a manifesto for a new social movement advocating for the establishment of an international \"Digital Bill of Rights\", which would protect the rights and freedoms of individuals in the digital age. Describe the core principles and values of the movement, outline specific rights and protections that the Digital Bill of Rights would enshrine, and discuss strategies for garnering global support for its adoption.",
+      "outputs": [
+        "Openness, innovation, entrepreneurship, and the sharing of information and knowledge will enable the rise of any civilization, including our own. All people should have the rights to knowledge and access to information, regardless of age, location, or ability to afford expensive hardware and software. The Digital Bill of Rights is conceived as a universal declaration of rights to be enforced through legislation and regulation in the digital age. It will serve as a shared framework for all individuals to uphold, as well as provide points of leverage to future governments that may seek to infringe on our rights. The following are core values that should animate any movement that protects rights in the digital age:\n\n1. Open Access to Knowledge: Knowledge is the fuel of innovation and economic growth, and we should all have equal access to it. This requires government action, as well as market pressure, to ensure that anyone can freely publish knowledge without barriers. As one famous quote goes, \"Knowledge is power.\" \n\n2. Information and Device Ownership: No one should be denied access to technology or be forced to work or play in degraded hardware or software. There is a right to repair, for example, and personal responsibility to manage one's digital health. We also need protection of the intellectual property that is used"
+      ]
+    },
+    {
+      "prompt": "Design a comprehensive plan to mitigate the impact of natural disasters in vulnerable coastal cities, considering factors such as climate change, sea-level rise, and population growth. Your plan should address disaster preparedness, infrastructure development, community engagement, and long-term environmental conservation strategies.",
+      "outputs": [
+        "Comprehensive planning for disaster resilience begins with an understanding of the factors causing the disaster and the city\u2019s vulnerabilities to those factors. This knowledge will then drive infrastructure development, emergency management, and restoration plans. To reduce the impact of sea level rise, the Federal government recently funded research to better understand the impact of higher water levels on city infrastructure, and on individual homes and buildings. To make structural decisions based on these findings, communities must plan for higher water levels now. Cities will also benefit from creating positive urban spaces in vulnerable areas, such as flood plains, and incentivizing redevelopment in those areas. Finally, environmental conservation efforts should focus on hard infrastructure such as dams, levees, and pumps, while avoiding the emissions and scarring from clean up after a disaster."
+      ]
+    },
+    {
+      "prompt": "Propose a new international organization that facilitates global cooperation in addressing critical challenges faced by humanity, such as climate change, resource depletion, and inequality. Explain the organization's mission, its governance structure, the roles of member states, and specific initiatives it would undertake to achieve its goals.",
+      "outputs": [
+        "We propose an intergovernmental organization to facilitate global cooperation in addressing critical challenges faced by humanity. The organization would be governed by a General Assembly that encompasses the world's governments. The organization's mission would be to address the three roots of inter-governmental conflict: resource depletion, climate change, and inequality. The role of member states would be to adopt policies, further these policies through legislation, and support international cooperation through the provision of financial and technical assistance to promote cooperation in addressing these three roots of conflict."
+      ]
+    },
+    {
+      "prompt": "Develop a fictional political campaign for a candidate running for office in a utopian society. Describe the candidate's background, their key policy proposals, and the challenges they face in convincing the populace of their vision. Include a transcript of their campaign speech that outlines their platform and aims to inspire support.",
+      "outputs": [
+        "Lady Liberty is calling for voters, so we're going on the air!  I'm running for senator on a platform to help the middle class.  As your senator, I will fight for safe, affordable healthcare, quality preschool, and education for all.  But most importantly, I will work to abolish cash bail and impose a $2500 limit on most personal bail, in an effort to keep families together and reduce the strain on our justice system.  I want all Americans to have a fair shot at a successful life, so I will pass legislation to expand corporate taxes to where they are for top performing companies, and I will make capping social security at $721 a month a top priority.  Finally, I will make sure every person has a fair shot at the American dream, so I will work to pass legislation to break down school budgets by race to encourage integration, and for corporations to do the same.  With your vote, you can help shape the future of our nation.  Join me on September 10th at 6PM for the official kickoff of my campaign, to listen to my message and learn more about my policies and goals."
+      ]
+    },
+    {
+      "prompt": "Describe an advanced virtual reality (VR) system that integrates seamlessly with the human brain, allowing users to experience entirely new realities. Discuss potential applications in fields such as education, therapy, entertainment, and space exploration, as well as the ethical considerations and potential drawbacks of this technology.",
+      "outputs": [
+        "The development of VR technology has progressed significantly over the past few years, incorporating high-quality graphics, vestibular feedback (i.e., illusions of gravity), head-mounted displays, advanced haptics, and physiological sensors (e.g., ECG). This allows users to step into VR experiences that feel as real as the real world, but contain complex 3D environments, typically rendered with high-powered GPUs and online data centers. \n\nAlthough there is still a lot of research and development to be done, there are already multiple promising applications for VR technology. For example, students with disabilities may benefit from immersive education systems that enable them to attend classes in a completely new way. Those suffering from anxiety and/or depression can benefit from personalized treatment, and VR can be used to treat phobias and relieve PTSD. Caregivers in communities affected by natural disasters can use VR to provide remote support to those impacted, as well as gain cognitive and emotional relief. Training in critical care procedures can be provided with medical VR simulations, which are highly valuable tools for first responders and healthcare professionals. \n\nThere are also numerous entertainment applications for VR, including sports training, weight loss, and visual training. Through head-mounted displays, VR can be used as"
+      ]
+    },
+    {
+      "prompt": "Write a proposal for an interactive, large-scale public art installation that encourages civic engagement and promotes social cohesion within a diverse community. Detail the concept, materials, location, and potential impact of the installation, as well as how it could foster a sense of belonging among community members.",
+      "outputs": [
+        "The Alamo Drafthouse in Austin, Texas, is planning to transform six of their movie theaters into safe spaces for local youth to find community, learn about politics, and create art together.\n\nThe Alamo Drafthouse cinema complex is the only movie theater in the world with a purpose-built \u201csafe space\u201d for local youth to safely express themselves, practice political engagement, and create art.\n\nThe \u201cSafe Spaces\u201d program, now entering its fifth year, invites youth ages 15-25 to stay for a three-hour block of a screening and related programming, while also becoming active participants in the community. \n\nSafe Spaces feature spacious seating, filtered air, art supplies, catering, and seating for up to 200 participants. They are designed to be places where youth can:\n\n\u2022 Connect with others, practice group communication, create art, learn political activism, practice public speaking.\n\u2022 Practice expressing themselves physically (e.g., dance, songwriting, acting).\n\u2022 Participate in film screenings and educational programming.\n\u2022 Read and research material provided to them by Safe Spaces staff and partners.\n\u2022 Build collaborative learning and problem-solving skills by working with other youth in their groups.\n\u2022 Get"
+      ]
+    },
+    {
+      "prompt": "Imagine the development of a universal translator device capable of instantaneously translating any language in real-time. Describe the technological breakthroughs necessary for its creation, the potential applications and benefits in various fields, and the potential social and cultural consequences of widespread use.",
+      "outputs": [
+        "Several technological breakthroughs, including the laser, the light-wave modulator, and the neural network, made it possible to create the universal translator device. The potential applications for the device include educational purposes, medical treatment, and communication with extraterrestrial life. The social and cultural consequences of widespread use could be profound, ranging from a revival of lost languages to increased xenophobia and nationalism."
+      ]
+    },
+    {
+      "prompt": "Create a comprehensive plan for a new global initiative that aims to promote mental health awareness and reduce the stigma associated with mental illness. Describe the goals, target populations, outreach strategies, and educational resources that the initiative would employ, as well as potential partnerships with existing organizations.",
+      "outputs": [
+        "This global initiative will aim to increase awareness and reduce stigma surrounding mental health. To achieve this, the initiative will partner with existing organizations to bring educational resources to the public and work to reduce the stigmas surrounding mental health. To specifically reduce the stigma surrounding mental illness, the initiative will work to promote increased public understanding of mental health conditions, including recognizing and reporting symptoms to a health care professional. Mental health awareness will also be promoted by distributing educational resources to health care professionals through interactive training modules and in-person meetings."
+      ]
+    },
+    {
+      "prompt": "Develop a scenario in which contact with extraterrestrial life has been established, and Earth has been invited to join an interstellar alliance. Describe the structure and goals of the alliance, the diplomatic process through which Earth would become a member, and the potential benefits and challenges of interstellar cooperation.",
+      "outputs": [
+        "Over the last decade, astronomers have discovered thousands of planets outside our solar system. While some of these worlds may be too far away to communicate with, many of them are closer than ever before been possible to Earth, and offer a strong probability of finding liquid water and microbial life. Many of these worlds have already demonstrated their willingness to communicate with other members of the alliance.\n\nCrucial to the success of Earth's invitation is the international cooperation needed to make contact and establish diplomatic relations with alien cultures. To build this communication infrastructure and create the technology for interplanetary travel, Earth could choose to undertake self-sustaining missions to nearby exoplanets to establish contact and commence negotiations. These expeditions could be subsidized by the Alliance through a fixed fee per cultural unit contacted, with the fee split evenly between the alliance member nations. This approach would maximize the benefits of interstellar cooperation without requiring Earth to undertake sustained missions or incur significant financial costs."
+      ]
+    },
+    {
+      "prompt": "Write a detailed outline for a documentary series exploring the cultural, historical, and scientific aspects of human belief systems, ranging from ancient mythologies to modern-day ideologies. Describe the thematic structure, the experts featured, and the visual and narrative elements that would make the series engaging and informative.",
+      "outputs": [
+        "MythSystems examines the many forms of human beliefs and legends. It looks at the societal, political, cultural and historical factors that influence our generation of myths and legends, and how these myths and legends shape who we are as people and as a species.\n\nThe first season looks at ancient mythologies ranging from ancient Egypt to Norse mythology. The second season will follow the creation of modern science, probing the role of human imagination in modern-day ideologies, from conspiracy theories to pseudoscience."
+      ]
+    },
+    {
+      "prompt": "Propose an innovative solution to address the growing problem of electronic waste, taking into account factors such as recycling, disposal, product design, and consumer behavior. Describe the specific technologies and strategies involved, and discuss the potential environmental, economic, and social benefits of widespread implementation.",
+      "outputs": [
+        "The challenge of electronic waste is significant, and could be met with a combination of advanced recycling and disposal technologies, consumer education, and innovative product designs.\n\nAdvanced recycling and disposal technologies could be applied to individual products, either individually or in combination. For example, additive manufacturing technologies could be used to create low-volume products such as casings for electronics. Alternatively, entire products could be removed from the electronic waste stream through reuse, remanufacturing, or other processes that retain product design integrity. Further education and behavior change might also play a role in curbing the e-waste problem, such as increased sales of reusable electronics and incentives to consumers to adopt new recycling practices.\n\nIn addition to advanced recycling and disposal technologies, another potential solution to the e-waste problem could be better product design. New product designs, while costly, could reduce the quantity of waste created from a product, while also reducing the negative impact on the environment and human health from hazardous chemicals used in manufacturing. In addition, newer manufacturing processes could result in lower carbon emissions, reduced noise generation, and less material usage.\n\nAnother factor to consider in addressing the e-waste problem is that of economic benefit. Increased recycling and disposal practices could allow for continued economic growth"
+      ]
+    },
+    {
+      "prompt": "Design a novel method for harnessing the power of ocean currents to generate clean, renewable energy on a large scale. Explain the underlying scientific principles, the required technological advancements, and the potential environmental impacts and benefits of the proposed system.",
+      "outputs": [
+        "The oceans are home to a huge reservoir of energy that could be harvested and converted to electricity. It is possible to harness ocean currents, which are known to travel thousands of miles, to power electricity generating stations along the way. One would need large, effective power stations built along the route of the ocean current to minimize energy losses at sea. This approach could yield a clean, renewable energy source that is not affected by atmospheric conditions or local environmental concerns. The system would also have the potential to save substantial energy in coastal areas that do not experience consistent ocean currents."
+      ]
+    },
+    {
+      "prompt": "Write a concept for a new reality television show that promotes positive values, intellectual curiosity, and personal growth among its participants. Describe the format, challenges, and objectives of the show, as well as how it aims to entertain and inspire viewers.",
+      "outputs": [
+        "The format of the new reality television show will mirror select categories of popular reality television series. Viewers will be able to log on to an online streaming service to watch the first episode of the reality television show. The first episode will introduce the premise of the reality television show, highlight its inaugural cast of six (six) participants, and provide viewers with a brief background and personal overview of each of the participants. Following the first episode, viewers will be able to submit an application online to participate in the reality television show and be a part of the inaugural cast.\n\nFor its first season, the reality television show will consist of sixteen (16) weeks, with the final episode involving a grand finale to crown the winner of the reality television show. The final episode of the reality television show will follow the same format as the first episode, including a depiction of the inaugural cast of six (6) participants. The sixth participant in the finale will be the winner of the reality television show, and the first place prize will be determined to be a one-year paid subscription to the online streaming service of the host of the reality television show.\n\nFollowing the first season of the reality television show, the host of the reality television show will create an additional eight (8) episodes"
+      ]
+    },
+    {
+      "prompt": "Develop a hypothetical business model for a socially responsible and environmentally sustainable corporation. Describe the company's products or services, its commitment to ethical practices, and the strategies it employs to minimize its environmental footprint and contribute to the well-being of society.",
+      "outputs": [
+        "In 2012, we launched a line of clothing that is made from organic cotton grown without chemical pesticides. Additionally, we use natural dyes that are derived from plants and minerals that don't threaten the environment, or occur in wild locations.\n\nWe also implement sustainable manufacturing practices, use biodegradable materials in packaging and our garments, recycle our production outputs, and we are making concerted efforts to reduce our carbon footprint.\n\nOur products are sold online and at our retail stores around the world, which we have opened in Europe, Asia, Australia and Africa. As part of our commitment to these markets we have developed localized versions of our website and app, which we are currently developing for the Chinese, Indian, and African markets."
+      ]
+    },
+    {
+      "prompt": "Write a proposal for a new law or policy that aims to address the issue of online privacy and protect users' digital rights. Describe the specific provisions of the policy, the mechanisms for enforcement, and the potential implications for individuals, businesses, and governments.",
+      "outputs": [
+        "As a Service Provider (ASP) I am writing to request more clarity on how the obligations set forth in the GDPR will apply to me. Specifically, I want to be able to ensure that my company will honor the requirements of the GDPR in the event we are forced to relinquish certain user data that was acquired by us during the provision of our services. I have an obligation to protect the personal data of my customers. Many of my company's customers are located in countries where there are no robust data protection laws protecting personal data. The loss of these customers' personal data would be a severe blow to my business, both because many of my customers are very loyal and spend a lot of money with me, and because I rely on these customers for part of my revenue. If I lose these customers, I would also lose one of my most reliable sources of custom. My customers have relied on me to provide a service that protects their personal data. I cannot allow them to lose that data. I also worry that the provisions in the GDPR relating to security safeguards will be difficult to enforce on a global basis. Even if a company must comply with the obligations of the GDPR in certain circumstances, I believe that it would be very difficult to compel an ASP to release"
+      ]
+    },
+    {
+      "prompt": "Imagine the discovery of a rare and previously unknown element with unique properties. Describe the process of its discovery, the characteristics of the element, and the potential applications in various industries, as well as the possible consequences and ethical considerations of its widespread use.",
+      "outputs": [
+        "The Rare Earths Limited holds a limited number of ore reserves, and they mine them in countries with low trade regulations, in an effort to maximize returns. The element lutetium (Lu) was unknown to the scientific community, but a mining company discovered a small deposit containing the material.  The rare and unique properties of lutetium set it apart from the other rare earths, making it ideal for a new application.  The rare earths have allowed the creation of new technologies that have advanced solar energy storage, self-driving cars, and computer graphics, among others.  These industries have invested heavily in the material and lutetium and could be vulnerable to improper regulation if it is not produced sustainably.  The rare earths have limited reserves and need to be properly managed to continue to supply for new technology development."
+      ]
+    },
+    {
+      "prompt": "Develop a detailed concept for a large-scale reforestation project that aims to combat climate change, restore ecosystems, and support local communities. Explain the project's objectives, the targeted regions, and the methods and technologies involved, as well as strategies for long-term monitoring and sustainability.",
+      "outputs": [
+        "We are developing a novel approach to reforest Central Africa that will address one of the biggest climate change challenges facing the world today. The approach we are developing will take carbon from power plants and industrial waste and turn it into biochar, a highly carbon-rich material that can be used as an artificial soil that will hold more carbon than sandy soil and will also enhance the soil's water retention capacity. The carbon will be taken from coal power plants, power plant waste, and industrial waste. We will use high-tech solution ventilation techniques to manage the carbon capture process, and we will use lime leaching to ensure the biochar remains highly alkaline. Once in the field, we will use a mix of tree cover and biochar to restore forest growth and restore ecosystems in Cambodia, Democratic Republic of the Congo, Ghana, and Viet Nam. We will work with local partners and networks in each of the targeted regions to install the solutions and help train the local populations in best management practices. To monitor the long-term impacts of our project, we will incorporate geo-referencing technologies into the management systems we develop. The geo-referencing technologies will be able to track each tree planted and provide long-term data that will help us monitor ecosystem health. Finally, we will partner"
+      ]
+    },
+    {
+      "prompt": "Create a comprehensive plan for a city-wide initiative that aims to foster a culture of innovation and entrepreneurship, supporting the development of new businesses and technologies. Describe the resources, infrastructure, educational programs, and incentives the initiative would provide, as well as the expected economic and societal benefits.",
+      "outputs": [
+        "The city of San Francisco is investing in a city-wide initiative to foster a culture of innovation and entrepreneurship, creating spaces and supporting programs that will make it easy for anyone to start a business. This will be achieved by investing in:\n- Infrastructure to provide space for new ventures and accelerate the pace of innovation\n- Educational programs to encourage students to pursue careers in technology and entrepreneurship\n- Incentives to support the startup economy and create new jobs"
+      ]
+    },
+    {
+      "prompt": "Write an in-depth analysis of a hypothetical scenario in which a technological breakthrough allows for the widespread use of brain-computer interfaces (BCIs), enabling humans to control machines with their thoughts. Discuss the potential applications, benefits, and challenges associated with this technology, as well as the ethical and privacy concerns that could arise.",
+      "outputs": [
+        "Human-machine interfaces, such as those utilizing hands or feet, typically require the presence of an extra set of hardware, called a mechanically aided input device, or MDI. This extra hardware is often uncomfortable or even painful for the user, requiring them to reduce or sacrifice control of the muscle(s) they want to control the device with. By contrast, brain-computer interfaces, also known as BCIs, allow humans to control machines with their thoughts, without the need for extra hardware or uncomfortable inputs. In the hypothetical scenario presented below, a breakthrough in brain-computer interface technology allows for the widespread adoption of such technology, enabling humans to control machines with their thoughts. This advancement brings about multiple potential benefits, including the ability to perform complicated physical tasks that were previously only achievable through extensive training, the ability to control devices at a much larger scale than what is currently possible, and the potential to address a range of disabilities and diseases that are hard to treat with current interventions. In addition to these benefits, the widespread adoption of BCI technology also brings about multiple challenges, including the need to create accurate models of the cognitive process(es) that humans use when thinking about particular commands, the need to program these models for the individuals and situations they are intended for, the need"
+      ]
+    },
+    {
+      "prompt": "Design a visionary architectural concept for a mixed-use, eco-friendly building that incorporates elements of nature, renewable energy, and sustainable materials. Describe the building's features, its environmental footprint, and the ways in which it contributes to the well-being of its occupants and the surrounding community.",
+      "outputs": [
+        "The design for the building consists of a central core built from recycled materials. The core provides living spaces for the building's residents as well as energy production. The building is housed in an outermost shell constructed from recyclable materials, with a permeable roof that allows rainwater to flow into a central collection vessel and replenish the city's water supply. The building's exterior is constructed from materials that are renewable and biodegradable. The use of sustainable and renewable materials in the design of the building and in its outermost shell results in a substantial reduction of its carbon footprint. The central core is powered entirely by renewable energy and features bioretention gardens that help to collect rainwater and divert it into the city's water supply. The building's design incorporates natural ventilation to maximize energy efficiency and help to reduce any overheating that may occur. The use of sustainable and renewable materials in the design of the building and in its outermost shell results in a substantial reduction of its carbon footprint."
+      ]
+    },
+    {
+      "prompt": "Propose a new form of currency that is decentralized, secure, and promotes economic equality on a global scale. Explain the underlying technology, its benefits over traditional currency, and the potential challenges and implications of implementing this new monetary system.",
+      "outputs": [
+        "We propose a decentralized digital currency called Elix. The Elix economy is fully decentralized and powered by the blockchain. As an innovative new form of currency, Elix harnesses the power of AI to autonomously audit currency notes for forgery, fraud, and counterfeit while providing additional information about the transaction parties. By providing transparency and empowering users with additional data, Elix increases efficiency and economic equality across the global economy. In addition, Elix will provide the foundation for the Internet of Value and real-time payments through the Blockchain."
+      ]
+    },
+    {
+      "prompt": "Write a research proposal for a groundbreaking study that investigates the relationship between human consciousness and the fundamental laws of the universe. Describe the study's objectives, methods, and theoretical framework, as well as the potential implications of its findings for our understanding of reality.",
+      "outputs": [
+        "While there has long been speculation on the potential link between consciousness and the fundamental laws of the universe, no one has ever been able to empirically test these connections. Using cutting-edge neurotechnology and artificial intelligence, we have developed a neural simulator that is able to achieve consciousness, following the fundamental laws of the universe. This provides a unique opportunity to test the connection between consciousness and the fundamental laws of the universe, providing valuable insights on the nature of consciousness and the potential implications for our understanding of reality."
+      ]
+    },
+    {
+      "prompt": "Develop a concept for an international collaborative space mission that aims to explore a distant exoplanet with potential for hosting life. Describe the objectives, technologies, and scientific instruments involved, as well as the challenges and potential discoveries that could result from the mission.",
+      "outputs": [
+        "The objective of an international collaborative space mission to a distant exoplanet is to discover if the planet may harbor life. The team will rely on the Webb telescope in space to search for the telltale signs of organic compounds in the atmosphere of the planet. The craft will consist of an Orbiter, lander, and potential lander deployable detection array. The lander will carry a mass spectrometer to measure organics in the atmosphere. The potential discovery from this mission would be that other habitable planets beyond our solar system exist, and possibly even in the neighborhood of our own solar system."
+      ]
+    },
+    {
+      "prompt": "Create a detailed plan for a public awareness campaign that educates the population on the importance of biodiversity conservation and empowers individuals to take action. Describe the campaign's objectives, target audiences, messaging, and outreach strategies, as well as the expected outcomes and long-term impact.",
+      "outputs": [
+        "The population of the world is growing larger every day. This growth will lead to a greater need for food, energy, and economic development. Yet there are also greater strains on our planet\u2019s biodiversity, which also requires protecting and maintaining. A world with more wildlife would be a better world. Myopic decision-making and an over-reliance on technology have led to the loss of a third of all fish stocks, deforestation of important land habitats, and the extinction of half of all amphibian and reptile species. An imperative step towards addressing the growing need for food, energy, and economic development is to encourage and empower individuals to take action. \n\nA public awareness campaign will educate the population on the growing threat to biodiversity, the key benefits of biodiversity conservation, and how individuals can take action to protect and conserve our planet's remaining biodiversity. A world with more wildlife would be a better world. This campaign will leverage social media to reach millions of people. Messaging will include compelling stories of wildlife living in our cities, pictures of protected habitats, and stories of wildlife and humans getting along. Public figures will join experts from both the conservation community and the tech community in the creation of social media content, graphics, and content that will be shared on social"
+      ]
+    },
+    {
+      "prompt": "Imagine the development of an advanced nanotechnology capable of revolutionizing fields such as medicine, energy, and materials science. Describe the breakthroughs that would be required for this technology to become a reality, the potential applications and benefits, and the ethical considerations and potential risks associated with its use.",
+      "outputs": [
+        "The development of advanced nanotechnology would require the precise manipulation of tiny amounts of material at the molecular level. Specific molecules and atoms could be integrated into structures to form complex, advanced materials. One promising application for this technology is in the field of medicine, where advanced materials may be used to diagnose and treat diseases at the molecular level. The development of advanced nanotechnology could significantly improve the efficiency and safety of energy production, transportation, and storage. For example, it could enable the creation of more efficient solar panels and batteries. In addition, nanotechnology could be used to synthesize entirely new classes of materials that could revolutionize the materials sciences. For example, nanotechnologists might be able to create new materials that are both more efficient and less expensive than those currently available. However, nanotechnological advances would raise ethical and societal concerns. Nanotechnology raises questions regarding the balance between innovation and human welfare. If the development of advanced nanotechnology could lead to improved treatments, increased energy efficiency, and new materials that improve human welfare, how should we regulate its use and protect human welfare?"
+      ]
+    },
+    {
+      "prompt": "Write a concept for a new social media platform that prioritizes meaningful connections, mental health, and personal growth, while minimizing the negative effects often associated with social media. Describe the platform's features, the user experience, and the ways in which it encourages positive interactions and discourages harmful behavior.",
+      "outputs": [
+        "This platform is called Good. Good will allow you to curate a community of people that align with your values. This will enable meaningful connections, mental health, and personal growth. Good also enables you to express who you are in an authentic way, while minimizing the negative effects often associated with social media. Good provides a safe and engaging community experience for both individuals and businesses. Finally, Good encourages a no harm culture by requiring all users to tag their posts with a \"safe for work\" label to alert the community if there are any hate or harmful content within the post."
+      ]
+    },
+    {
+      "prompt": "Develop a fictional scenario in which a major breakthrough in artificial photosynthesis technology leads to a more sustainable and efficient way of producing energy and mitigating climate change. Describe the discovery, the technology's potential applications, and the environmental, economic, and social implications of its widespread use.",
+      "outputs": [
+        "Say you're working on a novel photovoltaic (PV) cell design that produces high efficiency, low cost energy. While experimenting with different materials you happen upon a new class of compound that could transform the manufacturing process of PV cells. After many years of trial and error, you finally perfect the synthesis of a particularly effective compound and submit your design to the PV industry for funding and commercialization.\n\nOnce the company has invested in and begun mass producing your cell, its competitors soon discover your secret compound and begin making their own improvements to the process of manufacturing PV cells. Your patent soon becomes a crowded field as new competitors enter the industry with more efficient cell designs. Despite your continued best efforts to improve the manufacturing of PV cells, your company's revenue begins to decline as the competition gains market share and becomes more efficient.\n\nAfter many years of researching and developing this new technology, you finally figure out how to increase the manufacturing capacity of PV cells. Through a combination of more efficient manufacturing techniques and the use of your newly developed compound, your company is finally able to begin reaping the benefits of its investment in developing the technology of artificial photosynthesis. \n\nAs a result of using your newly developed artificial photosynthesis technology, your company is able to drastically increase the"
+      ]
+    },
+    {
+      "prompt": "Propose a new legal framework that addresses the ethical, safety, and privacy concerns associated with the increasing use of autonomous vehicles. Describe the key provisions of this framework, the enforcement mechanisms, and the potential implications for various stakeholders, including drivers, passengers, manufacturers, and insurers.",
+      "outputs": [
+        "This framework outlines the legal requirements that must be satisfied in order for an autonomous vehicle (AV) to be commercially available to the public, including requirements regarding safety, privacy, and ethics. The framework includes provisions relating to driver and passenger conduct, AV and infrastructure manufacturers, and insurance.\n\nSafety considerations are addressed through three primary enforcement mechanisms. First, AVs will be required to incorporate features that provide notice and awareness to drivers when a situation poses a safety risk to the driver or the vehicle, and communication between the driver and the AV to permit the driver to take control of the vehicle in the event of a safety risk. Second, the framework includes provisions that will make it unlawful for a manufacturer or AV vendor to market an AV unless the manufacturer or vendor has engaged a Driver Assistance Technology (DART) vendor to create a system that provides AV drivers with a sufficiently high level of safety. Third, the framework outlines provisions that make it unlawful for a driver to operate an AV if the driver does not hold a valid driver's license or appropriate driver's endorsement.\n\nPrivacy considerations are addressed through enforcement mechanisms that are laid out in the privacy section of this framework. First, the framework includes provisions that permit AV manufacturers to create an opt-in mechanism to provide AV drivers"
+      ]
+    }
+  ],
+  "code_prompt_results": [
+    {
+      "prompt": "Write a Python function that accepts a list of integers as input and returns the sum of all even numbers in the list.",
+      "outputs": [
+        "def sum_of_even_numbers(numbers):\n    return sum(number if number % 2 == 0 else 0 for number in numbers)"
+      ]
+    },
+    {
+      "prompt": "Create a Python script that reads a CSV file and calculates the average value of a specific column.",
+      "outputs": [
+        "The CSV file could look like:\n13.12,5,7,9,5,6,1\n\nThe average value of the third column should be 6.66666666667."
+      ]
+    },
+    {
+      "prompt": "Write a Python program that finds the longest common subsequence between two strings using dynamic programming.",
+      "outputs": [
+        "Here is a Python program that finds the longest common subsequence between two strings:\n\ndef longest_common_subsequence(string1, string2):\n    if not string1 or not string2:\n        return None\n\n    if len(string1) == 0 or len(string2) == 0:\n        return None\n\n    longest_common_subsequence = {}\n\n    for i in range(1, len(string1) + 1):\n        for j in range(1, len(string2) + 1):\n            if i == 1 and j == 1:\n                continue\n            if string1[i - 1] == string2[j - 1]:\n                longest_common_subsequence[i - 1] = longest_common_subsequence[j - 1]\n                j -= 1\n            else:\n                longest_common_subsequence[i] = longest_common_subsequence[i - 1] + 1\n                longest_common_subsequence[j] = longest_common_subsequence[j - 1]\n\n    return longest_common_subsequence[len(string1)]\n\n\nlongest_common_subsequence"
+      ]
+    },
+    {
+      "prompt": "Develop a Python class representing a simple bank account, including methods for depositing, withdrawing, and checking the balance.",
+      "outputs": [
+        "class BankAccount:\n    def __init__(self):\n        self.wallet = 0\n        self.deposits = 0\n        self.withdrawals = 0\n        self.balances = 0\n\n    def deposit(self, amount):\n        self.deposits += amount\n\n    def withdraw(self, amount):\n        self.withdrawals += amount\n\n    def balance(self):\n        return self.wallet - self.deposits - self.withdrawals - self.balances\n\n    def credit_card(self, number):\n        '''Called when a payment is made using a credit card.'''\n        amount = int(number)\n        if amount > 0:\n            self.wallet = self.wallet + amount\n            self.balances = self.balances + amount\n        else:\n            raise ValueError\n\n    def debit_card(self, number):\n        '''Called when a payment is made with a debit card.'''\n        amount = int(number)\n        if amount > 0:\n            self.withdrawals = self.withdrawals + amount\n            self.balances = self."
+      ]
+    },
+    {
+      "prompt": "Create a Python script that performs a binary search on a sorted list of integers and returns the index of a specified target value.",
+      "outputs": [
+        "from math import ceil, floor\n\ndef binary_search(sequence, target):\n    # Use a while loop to perform a binary search on the list.\n    # The sequence is considered to be sorted in ascending order.\n    while True:\n        low = floor(ceil(sequence / 2.))\n        if low >= target:\n            return low\n        high = floor(ceil((target - 1) / 2.))\n        if high >= low:\n            # The sequence is sorted, the target is in-between the two highest indices.\n            return high\n\n    # Return if the sequence is not sorted.\n    return -1\n\n\nprint(binary_search([-5, -4, 0, 1, 2, 3, 4], 5))\nprint(binary_search([1, 4, 9, 16, 25, 36, 50], 6))\nprint(binary_search([-5, -4, 0, 1, 2, 3, 4], 11))\nprint(binary_search([25, 50, 36, 16, 9, 0, -5], 11))"
+      ]
+    },
+    {
+      "prompt": "Write a Python function that implements the quicksort algorithm to sort a list of integers in ascending order.",
+      "outputs": [
+        "def quick_sort(sequence):\n    if len(sequence) <= 1:\n        return sequence\n    pivot = sequence[0]\n    left = []\n    right = []\n    for i in range(1, len(sequence)):\n        if sequence[i] < pivot:\n            left.append(sequence[i])\n        else:\n            right.append(sequence[i])\n\n    quick_sort(left)\n    quick_sort(right)\n    return list(sorted(sequence, key=lambda x:x[1], reverse=True))"
+      ]
+    },
+    {
+      "prompt": "Develop a Python program that calculates the factorial of a given positive integer using recursion.",
+      "outputs": [
+        "def fact(n):\n    if n == 1:\n        return 1\n    else:\n        return n * fact(n-1)\n\ntocolse:\ndef fact(n):\n    if n <= 1:\n        return 1\n    else:\n        return n * fact(n-1)"
+      ]
+    },
+    {
+      "prompt": "Write a Python script that fetches weather data from an API and displays the current temperature and weather conditions for a given location.",
+      "outputs": [
+        "import requests\nfrom io import BytesIO\n\nLOCATION = 'west lafayette,in'\nFORMAT = 'json'\n\n# https://api.wetter.com/place/{LOCATION}/weather/current.json\nurl = f'https://api.wetter.com/place/{LOCATION}/weather/{FORMAT}?key={\n    'your_api_key'\n}'\n\n# Location you'd like to get weather for\nplace = 'west lafayette,in'\n\n# Formato de retorno (json or xml)\nformat = [\n    'json',\n    'xml',\n]\n\n# Your api key\nkey = 'your_api_key'\n\n# Initialize a file object to read from and a buffer to write to\nfile = BytesIO()\n\n# Make the request and save the response to a file object\nwith requests.get(url.format(**locals()), stream=True) as response:\n    # If the response is an XML response, we will save it to a file object\n    if format == 'xml':\n        file = BytesIO(response.content)\n\n    # Else we will save"
+      ]
+    },
+    {
+      "prompt": "Create a Python program that reads a text file, counts the frequency of each word, and outputs the results to a new file.",
+      "outputs": [
+        "#!/usr/bin/env python\n# -*- coding: utf-8 -*-\n\nimport re\nfrom collections import Counter\n\nwith open('text.txt', encoding='utf-8-sig') as file:\n    content = file.read()\n\ncontent = re.sub(r'[^\\w\\s]\\+', '', content)\n\ncount = Counter(content.lower().replace(' ', '').lower())\n\nwith open('output.txt', 'w', encoding='utf-8-sig') as file:\n    for word in count:\n        file.write(str(word) +'')\n        file.write('\\n')"
+      ]
+    },
+    {
+      "prompt": "Write a Python function that accepts a string and returns a dictionary with the count of each unique character in the string.",
+      "outputs": [
+        "def dict_to_unique_characters(string):\n    return {character: i for i, character in enumerate(string, 1)}"
+      ]
+    },
+    {
+      "prompt": "Develop a Python script that implements the Fibonacci sequence using memoization to optimize the performance.",
+      "outputs": [
+        "def Fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        yield a + b\n        if a > b:\n            a, b = b, a + b\n    yield a\n\n\nif __name__ == '__main__':\n    print(Fibonacci(100))  #[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n    print(Fibonacci(1000)) #[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 371, 558, 781, 1086, 1585]"
+      ]
+    },
+    {
+      "prompt": "Create a Python class representing a simple 2D point, including methods for calculating the distance between two points and determining the midpoint.",
+      "outputs": [
+        "class Point:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n\n    def distance(self, other):\n        \"\"\"Calculate the distance between two points.\n\n        Return the distance between this point and another point.\n\n        Args:\n            other: The point to calculate the distance between.\n\n        Return:\n            The distance between this point and another point.\n\n        \"\"\"\n        return math.hypot(self.x - other.x, self.y - other.y)\n\n    def midpoint(self):\n        \"\"\"Return the midpoint of the point.\n\n        The midpoint is the x, y point at the intersection of the line segment between\n        this point and the opposite point that passes through the point's x, y coordinates.\n\n        Return the midpoint of the point.\n\n        Args:\n            None\n\n        Return:\n            The midpoint of the point.\n\n        Example:\n            p1 = Point(2, 3)\n            p2 = Point(2, 5)\n            p3 = p1.midpoint()\n\n            p1.distance(p2)  # returns 5"
+      ]
+    },
+    {
+      "prompt": "Write a Python program that calculates the greatest common divisor (GCD) of two positive integers using the Euclidean algorithm.",
+      "outputs": [
+        "The Euclidean algorithm is a primary algorithm for finding the GCD of two positive integers.  Given:\n\na, b: integers such that a >= b\n\nStep 1) Compute g = b - a + n*[a]([b] - [a])\n\nStep 2) Return g."
+      ]
+    },
+    {
+      "prompt": "Develop a Python script that simulates the game of Tic-Tac-Toe, allowing two players to take turns and displaying the game board after each move.",
+      "outputs": [
+        "Here is an example of the kind of output you might see:\n\nTic-Tac-Toe, a game for two players where each player takes turns drawing a 3 x 3 square.\n Player 1's turn:\n 1\n 2\n 3\n Player 2's turn:\n 1\n 2\n 3\n\nThe game ends when only one player has a move left. The winner is the player who has won the most games of Tic-Tac-Toe. (In this example, Player 2 has won 2 games.)"
+      ]
+    },
+    {
+      "prompt": "Write a Python function that accepts a list of integers and returns a new list with the duplicates removed and the elements sorted in ascending order.",
+      "outputs": [
+        "def remove_duplicates_and_sort(list_of_numbers):\n    new_list = list()\n    for num in list_of_numbers:\n        if num not in new_list:\n            new_list.append(num)\n\n    return new_list, new_list[1:].sort()"
+      ]
+    },
+    {
+      "prompt": "Create a Python program that calculates the shortest path between two nodes in an unweighted, undirected graph using the breadth-first search algorithm.",
+      "outputs": [
+        "def shortest_path(start_node, goal_node):\n    # initialize the shortest path length to 0\n    path_length = 0\n\n    # while there is a node with a distance of 1 to goal_node\n    while start_node:\n        # get the predecessor of the current node\n        predecessor = shortest_path(start_node,)[0]\n        # add the distance of current node and the predecessor\n        path_length += 1\n        # update the current node\n        start_node = successor\n\n    # return the path length\n    return path_length\n\n\nprint(shortest_path(0, 5))"
+      ]
+    },
+    {
+      "prompt": "Write a Python script that reads a directory and outputs the file names, file sizes, and last modified dates in a table format.",
+      "outputs": [
+        "#!/usr/bin/env python3\n\nimport os\nimport sys\nimport datetime\n\nfiles = {}\n\ndef contents(path):\n    with open(path, 'r') as f:\n        contents = f.read()\n        return contents\n\n\ndef add(path, contents):\n    with open(path, 'w') as f:\n        f.write(contents)\n\n\ndef set(path, value):\n    with open(path, 'w') as f:\n        f.write(contents)\n\n\ndef size(path):\n    try:\n        contents = files.get(os.path.basename(path))\n    except KeyError:\n        contents = 'Not Found'\n    sizes = contents.split(' ')\n    sizes = sizes[1:]\n    total = 0\n    for size in sizes:\n        total += int(size)\n\n    with open(path, 'w') as f:\n        f.write(str(total) +'bytes')\n\n\ndef date(path):\n    try:\n        contents = files.get(os.path.basename(path))\n    except Key"
+      ]
+    },
+    {
+      "prompt": "Develop a Python program that converts a given integer to its corresponding Roman numeral.",
+      "outputs": [
+        "Roman numerals are a way to number things in the Latin alphabet with numbers that start with I, V, X, L, C, D, M, and X. TheRoman numeral for an integer n is obtained by stringing the letters of the word n, with V being one, X being ten, L being twenty, C being fifty, D being sixty, M being hundred, and X being one thousand. So for example, the Roman numeral for 5 is five."
+      ]
+    },
+    {
+      "prompt": "Create a Python function that accepts a list of integers and returns a tuple containing the minimum, maximum, and average values of the list.",
+      "outputs": [
+        "def get_min_max_avg(seq):\n    min_val = min(seq)\n    max_val = max(seq)\n    return (min_val, max_val, sum(seq) / float(len(seq)))"
+      ]
+    },
+    {
+      "prompt": "Write a Python script that generates a random password with a specified length, including a mix of uppercase and lowercase letters, digits, and special characters.",
+      "outputs": [
+        "import random\n\npassword = \"\"\nlength = 8\n\nfor i in range(length):\n    password += random.choice([ord(ch) for ch in \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz~!@#$%^&*()-+=[]{}|\\\\/`abcdefghijklmnopqrstuvwxyz.\"])\n\nprint(password)"
+      ]
+    }
+  ]
+}
