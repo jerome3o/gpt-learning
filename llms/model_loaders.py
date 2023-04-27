@@ -1,4 +1,5 @@
 from typing import Callable, List, Tuple
+from pathlib import Path
 import torch
 from transformers import (
     AutoModelForCausalLM,
@@ -9,12 +10,16 @@ from transformers import (
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from llms.dolly.helpers import InstructionTextGenerationPipeline
 
+_DEFAULT_CACHE_DIR = "/mnt/raid2/transformers_cache/"
+_DEFAULT_CACHE_DIR = _DEFAULT_CACHE_DIR if Path(_DEFAULT_CACHE_DIR).exists() else None
+
 
 def _load_transformers_model(
     model_name: str,
     load_in_8bit: bool = True,
     cache_dir: str = None,
 ) -> Tuple[AutoTokenizer, AutoModelForCausalLM]:
+    cache_dir = cache_dir or _DEFAULT_CACHE_DIR
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         device_map="auto",
@@ -30,8 +35,8 @@ def _load_transformers_model(
     return tokenizer, model
 
 
-def load_stablelm(model_name: str, load_in_8bit: bool = True):
-    tokenizer, model = _load_transformers_model(model_name, load_in_8bit)
+def load_stablelm(model_name: str, load_in_8bit: bool = True, cache_dir: str = None):
+    tokenizer, model = _load_transformers_model(model_name, load_in_8bit, cache_dir)
 
     class StopOnTokens(StoppingCriteria):
         def __call__(
@@ -78,8 +83,12 @@ def load_stablelm(model_name: str, load_in_8bit: bool = True):
     return generate_text
 
 
-def load_openassistant(model_name: str, load_in_8bit: bool = True):
-    tokenizer, model = _load_transformers_model(model_name, load_in_8bit)
+def load_openassistant(
+    model_name: str,
+    load_in_8bit: bool = True,
+    cache_dir: str = None,
+):
+    tokenizer, model = _load_transformers_model(model_name, load_in_8bit, cache_dir)
     stop_token_ids = tokenizer.all_special_ids
 
     class StopOnTokens(StoppingCriteria):
@@ -132,8 +141,9 @@ def load_openassistant(model_name: str, load_in_8bit: bool = True):
 def load_dolly(
     model_name: str,
     load_in_8bit: bool = True,
+    cache_dir: str = None,
 ) -> Callable[[str, int], List[str]]:
-    tokenizer, model = _load_transformers_model(model_name, load_in_8bit)
+    tokenizer, model = _load_transformers_model(model_name, load_in_8bit, cache_dir)
     generate_text = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer)
 
     def _generate_text(prompt: str, batch_size: int = None) -> List[str]:
@@ -144,14 +154,20 @@ def load_dolly(
     return _generate_text
 
 
-def load_model(model_name: str) -> Callable[[str, int], List[str]]:
+def load_model(
+    model_name: str,
+    load_in_8bit: bool = True,
+    cache_dir: str = None,
+) -> Callable[[str, int], List[str]]:
+    args = (model_name, load_in_8bit, cache_dir)
+
     if "dolly" in model_name.lower():
-        return load_dolly(model_name)
+        return load_dolly(*args)
 
     if "oasst" in model_name.lower() or "openassistant" in model_name.lower():
-        return load_openassistant(model_name)
+        return load_openassistant(*args)
 
     if "stablelm" in model_name.lower():
-        return load_stablelm(model_name)
+        return load_stablelm(*args)
 
     raise ValueError(f"Unknown model {model_name}")
