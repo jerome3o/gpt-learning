@@ -20,7 +20,7 @@ MODEL = "StabilityAI/stablelm-tuned-alpha-3b"
 # Create bot instance
 client = discord.Client(intents=Intents.all())
 
-model = load_model(MODEL)
+model = load_model(MODEL, load_in_8bit=False)
 
 
 # Register event listener for new messages
@@ -40,7 +40,7 @@ async def on_message(message):
     if message.channel.name == "agentc-chat" and message.content:
         async with message.channel.typing():
             model_resp = model(message.content, 1)[0]
-            resp = f"```\nMODEL: {MODEL}\n```\n{model_resp}"
+            resp = f"```\nMODEL: {MODEL}\nRESPONDING TO: {message.content}```\n{model_resp}"
 
             print(resp)
             await message.channel.send(resp[:2000])
