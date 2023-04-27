@@ -13,3 +13,4 @@ data/
 spm.*
 *.json
 scratch/
+.env
