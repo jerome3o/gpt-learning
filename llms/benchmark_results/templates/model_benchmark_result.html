@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ result.model_name }} - Benchmark{% endblock %}
+
+{% block content %}
+    <h1>{{ result.model_name }}</h1>
+    <h2>Brief Prompt Results</h2>
+    {% for prompt_result in result.brief_prompt_results %}
+        {{ prompt_result.prompt }}
+        <ul>
+        {% for output in prompt_result.outputs %}
+            <li>{{ output }}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    <h2>Long Prompt Results</h2>
+    {% for prompt_result in result.long_prompt_results %}
+        {{ prompt_result.prompt }}
+        <ul>
+        {% for output in prompt_result.outputs %}
+            <li>{{ output }}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    <h2>Code Prompt Results</h2>
+    {% for prompt_result in result.code_prompt_results %}
+        {{ prompt_result.prompt }}
+        <ul>
+        {% for output in prompt_result.outputs %}
+            <li>{{ output }}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock %}
