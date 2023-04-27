@@ -6,9 +6,16 @@ from llms.model_loaders import load_model
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-# MODEL = "databricks/dolly-v2-12b"
-# MODEL = "StabilityAI/stablelm-tuned-alpha-7b"
-MODEL = "OpenAssistant/stablelm-7b-sft-v7-epoch-3"
+# "databricks/dolly-v2-3b",
+# "databricks/dolly-v1-6b",
+# "databricks/dolly-v2-7b",
+# "databricks/dolly-v2-12b",
+# "OpenAssistant/stablelm-7b-sft-v7-epoch-3",
+# "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
+# "StabilityAI/stablelm-tuned-alpha-3b",
+# "StabilityAI/stablelm-tuned-alpha-7b",
+
+MODEL = "StabilityAI/stablelm-tuned-alpha-3b"
 
 # Create bot instance
 client = discord.Client(intents=Intents.all())
