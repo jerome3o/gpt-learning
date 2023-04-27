@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, StoppingCriteria, 
 MODELS = ["OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5"]
 
 
-def load_openassistant(model_name: str):
+def load_openassistant(model_name: str, load_in_8bit: bool = True):
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         device_map="auto",
@@ -13,7 +13,7 @@ def load_openassistant(model_name: str):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map="auto",
-        load_in_8bit=True,
+        load_in_8bit=load_in_8bit,
     )
     stop_token_ids = tokenizer.all_special_ids
 

@@ -7,7 +7,7 @@ MODELS = [
 ]
 
 
-def load_stablelm(model_name: str):
+def load_stablelm(model_name: str, load_in_8bit: bool = True):
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         device_map="auto",
@@ -15,7 +15,7 @@ def load_stablelm(model_name: str):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map="auto",
-        load_in_8bit=True,
+        load_in_8bit=load_in_8bit,
     )
 
     class StopOnTokens(StoppingCriteria):
