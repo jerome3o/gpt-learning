@@ -14,3 +14,4 @@ spm.*
 *.json
 scratch/
 .env
+.vscode/
