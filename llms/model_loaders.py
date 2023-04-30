@@ -177,7 +177,7 @@ def load_model(
     if generate_text is None:
         raise ValueError(f"Unknown model {model_name}")
 
-    if load_in_half:
+    if load_in_half and not load_in_8bit:
         model = model.half()
 
     return generate_text
