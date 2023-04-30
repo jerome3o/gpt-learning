@@ -81,7 +81,7 @@ def load_stablelm(model_name: str, load_in_8bit: bool = True, cache_dir: str = N
 
         return outputs
 
-    return generate_text
+    return tokenizer, model, generate_text
 
 
 def load_openassistant(
@@ -136,7 +136,7 @@ def load_openassistant(
 
         return outputs
 
-    return generate_text
+    return tokenizer, model, generate_text
 
 
 def load_dolly(
@@ -152,23 +152,32 @@ def load_dolly(
             o["generated_text"] for o in generate_text(prompt, batch_size=batch_size)
         ]
 
-    return _generate_text
+    return tokenizer, model, _generate_text
 
 
 def load_model(
     model_name: str,
     load_in_8bit: bool = True,
+    load_in_half: bool = True,
     cache_dir: str = None,
 ) -> Callable[[str, int], List[str]]:
     args = (model_name, load_in_8bit, cache_dir)
 
+    tokenizer, model, generate_text = None, None, None
+
     if "dolly" in model_name.lower():
-        return load_dolly(*args)
+        tokenizer, model, generate_text = load_dolly(*args)
 
     if "oasst" in model_name.lower() or "openassistant" in model_name.lower():
-        return load_openassistant(*args)
+        tokenizer, model, generate_text = load_openassistant(*args)
 
     if "stablelm" in model_name.lower():
-        return load_stablelm(*args)
+        tokenizer, model, generate_text = load_stablelm(*args)
 
-    raise ValueError(f"Unknown model {model_name}")
+    if generate_text is None:
+        raise ValueError(f"Unknown model {model_name}")
+
+    if load_in_half:
+        model = model.half()
+
+    return generate_text
