@@ -7,6 +7,8 @@ _file_dir = Path(__file__).resolve().parent
 
 _DEFAULT_IMDB_DATA_PATH = _file_dir / "data" / "imdb_data.pt"
 
+# TODO(j.swannack): Add torch data loader integration
+
 
 def load_sentiment_data(
     data_path: Union[Path, str] = None,
