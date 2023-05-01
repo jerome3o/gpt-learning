@@ -2,7 +2,7 @@ from typing import Union, Tuple, Callable
 from pathlib import Path
 import torch
 import tokenizers
-import tqdm
+from tqdm import tqdm
 
 _file_dir = Path(__file__).resolve().parent
 
