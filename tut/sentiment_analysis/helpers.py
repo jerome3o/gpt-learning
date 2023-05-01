@@ -1,6 +1,8 @@
-from typing import Union, Tuple
+from typing import Union, Tuple, Callable
 from pathlib import Path
 import torch
+import tokenizers
+import tqdm
 
 _file_dir = Path(__file__).resolve().parent
 
@@ -48,3 +50,36 @@ def load_sentiment_data(
         test_labels,
         test_lengths,
     )
+
+
+def load_tokenizer() -> tokenizers.Tokenizer:
+    return tokenizers.Tokenizer.from_file("models/tokenizer.json")
+
+
+def calc_accuracy(
+    model: torch.nn.Module,
+    loss_function: Callable[..., float],
+    data: torch.Tensor,
+    labels: torch.Tensor,
+    lengths: torch.Tensor,
+    batch_size: torch.Tensor,
+    device: str,
+):
+    cum_loss = 0
+    correct = 0
+    total = 0
+    with torch.no_grad():
+        for i in tqdm(range(0, len(data), batch_size)):
+            input = data[i : i + batch_size].to(device)
+            _labels = labels[i : i + batch_size].to(device)
+            _lengths = lengths[i : i + batch_size]
+
+            output = model(input, _lengths)
+            loss = loss_function(output, _labels)
+
+            cum_loss += loss
+            _, y_pred = torch.max(output, dim=1)
+            correct += sum(_labels == y_pred)
+            total += len(_labels)
+
+    return correct, total, cum_loss
