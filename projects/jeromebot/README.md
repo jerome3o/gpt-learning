@@ -8,3 +8,5 @@
     * [Model parallelism](https://huggingface.co/docs/transformers/v4.17.0/en/parallelism)
     * [Processing Data for LLMs](https://wandb.ai/wandb_gen/llm-data-processing/reports/Processing-Data-for-Large-Language-Models--VmlldzozMDg4MTM2)
     * [GPT-2 data preparation](https://rowlando13.medium.com/everything-gpt-2-4-data-preparation-514cb62f9f3b)
+    * [Dataset engineering for LLM finetuning](https://www.flowrite.com/blog/dataset-engineering-llm-finetuning)
+    * [Causal language modeling](https://huggingface.co/docs/transformers/tasks/language_modeling)

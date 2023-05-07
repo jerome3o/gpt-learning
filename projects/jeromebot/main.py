@@ -52,17 +52,3 @@ class User(BaseModel):
 class Conversation(BaseModel):
     participants: list[User]
     messages: list[Message]
-
-
-def get_conversations() -> List[Conversation]:
-    """
-    Get all conversations from the Facebook data dir.
-    """
-    conversations = []
-    for thread_dir in _FACEBOOK_DATA_ROOT_DIR.glob("**/messages"):
-        thread_dir = thread_dir.resolve()
-        if thread_dir.is_dir():
-            conversation = _get_conversation(thread_dir)
-            if conversation:
-                conversations.append(conversation)
-    return conversations
