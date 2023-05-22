@@ -14,6 +14,7 @@ def main():
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         trust_remote_code=True,
+        revision="671f67f",
         cache_dir=cache_dir,
     )
 
