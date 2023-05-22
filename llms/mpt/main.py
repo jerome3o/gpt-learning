@@ -1,4 +1,10 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoConfig
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    StoppingCriteria,
+    StoppingCriteriaList,
+    AutoConfig,
+)
 import torch
 import json
 from pathlib import Path
@@ -48,6 +54,17 @@ def main():
     )
 
     print("running inference")
+
+    class StopOnTokens(StoppingCriteria):
+        def __call__(
+            self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs
+        ) -> bool:
+            stop_ids = [50278, 50279, 50277, 1, 0]
+            for stop_id in stop_ids:
+                if input_ids[0][-1] == stop_id:
+                    return True
+            return False
+
     INSTRUCTION_KEY = "### Instruction:"
     RESPONSE_KEY = "### Response:"
     INTRO_BLURB = "Below is an instruction that describes a task. Write a response that appropriately completes the request."
@@ -73,6 +90,7 @@ def main():
         max_new_tokens=1000,
         pad_token_id=tokenizer.eos_token_id,
         do_sample=True,
+        stopping_criteria=StoppingCriteriaList([StopOnTokens()]),
     )
     text = tokenizer.decode(outputs[0])
     print(text)
