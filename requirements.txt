@@ -14,7 +14,7 @@ autopep8==1.6.0
 Babel==2.12.1
 backcall==0.2.0
 beautifulsoup4==4.11.2
--e git+git@github.com:jerome3o/pytorch_tut.git@e56dd164196343b99a0ae0259306065eabbb50bd#egg=bitsandbytes
+bitsandbytes
 black==23.1.0
 bleach==6.0.0
 blis==0.7.9
