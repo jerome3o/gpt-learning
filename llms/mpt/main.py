@@ -9,12 +9,10 @@ def main():
     cache_dir = DEFAULT_CACHE_DIR
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
-        device_map="auto",
         cache_dir=cache_dir,
     )
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="auto",
         trust_remote_code=True,
         cache_dir=cache_dir,
     )
