@@ -1,0 +1,12 @@
+name = "resnet50"
+platform = "onnx_onnxv1"
+
+[[inputs]]
+name = "input"
+datatype = "FP32"
+shape = [224, 224, 3]
+
+[[outputs]]
+name = "output"
+datatype = "FP32"
+shape = [1000]
