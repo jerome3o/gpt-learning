@@ -10,8 +10,8 @@ from transformers import (
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from llms.dolly.helpers import InstructionTextGenerationPipeline
 
-_DEFAULT_CACHE_DIR = "/mnt/raid2/transformers_cache/"
-_DEFAULT_CACHE_DIR = _DEFAULT_CACHE_DIR if Path(_DEFAULT_CACHE_DIR).exists() else None
+DEFAULT_CACHE_DIR = "/mnt/raid2/transformers_cache/"
+DEFAULT_CACHE_DIR = DEFAULT_CACHE_DIR if Path(DEFAULT_CACHE_DIR).exists() else None
 
 
 def _load_transformers_model(
@@ -19,7 +19,7 @@ def _load_transformers_model(
     load_in_8bit: bool = True,
     cache_dir: str = None,
 ) -> Tuple[AutoTokenizer, AutoModelForCausalLM]:
-    cache_dir = cache_dir or _DEFAULT_CACHE_DIR
+    cache_dir = cache_dir or DEFAULT_CACHE_DIR
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
         device_map="auto",
