@@ -16,3 +16,4 @@ scratch/
 .env
 .vscode/
 *.onnx
+*.pb
