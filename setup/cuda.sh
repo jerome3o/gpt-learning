@@ -1,3 +1,7 @@
+# Based off:
+# https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#system-requirements
+
+
 set -xe
 
 # Verification
