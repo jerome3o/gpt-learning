@@ -22,5 +22,7 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/$distro/$arch/cuda
 sudo dpkg -i cuda-keyring_1.0-1_all.deb
 
 # Install cuda
-sudo apt-get install cuda
+sudo apt-get install cuda nvidia-container-toolkit
+
+
 

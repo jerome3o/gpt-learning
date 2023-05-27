@@ -3,7 +3,7 @@
 
 
 DCGM_EXPORTER_VERSION=2.1.4-2.3.1 && \
-docker run -d --rm \
+sudo docker run -d --rm \
    --gpus all \
    --net host \
    --cap-add SYS_ADMIN \
