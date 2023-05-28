@@ -18,6 +18,8 @@ Notes
 
 ## AWS
 
+Couldn't find a way to hire a VPS with a GPU. This may be because I have the wrong type of account, or I just missed something obvious.
+
 ## Lambda Labs
 
 Only have high end GPUs, only one available are:
@@ -43,3 +45,5 @@ Appears to be support for T4's [here](https://learn.microsoft.com/en-us/azure/vi
 Looks like they don't currentl support GPUs on their VMs. [Recommendation thread "under review"](https://ideas.digitalocean.com/core-compute-platform/p/add-gpu-instances)
 
 ## Linode
+
+They have RTX6000 GPUs available in 1,2,3,4x configurations. They are $1000,$2000,$3000,$4000 per month respectively.
