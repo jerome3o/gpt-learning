@@ -5,7 +5,7 @@
 
 ## Setup
 
-Make sure agent forwarding is configured in your ssh config i.e.
+Make sure agent forwarding is configured in your local ssh config i.e.
 
 ```config
 Host agentc
