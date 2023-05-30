@@ -1,8 +1,8 @@
-# PyTorch Learning Repo
+# GPT Learning repository
 
-A collection of tutorials from various places, or exercises recommended by other people / ChatGPT
+A collection of tutorials from various places, or exercises recommended by other people / ChatGPT, some little projects here and there.
 
-# PyTorch "Hello World" Projects
+# Deep Learning "Hello World" Projects
 
 Following are a few "Hello World" like machine learning projects suggested by ChatGPT itself.
 
