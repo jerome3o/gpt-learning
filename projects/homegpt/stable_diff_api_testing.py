@@ -1,3 +1,6 @@
+# To get the webuiapi package, run:
+# pip install webuiapi
+
 import os
 from pathlib import Path
 
