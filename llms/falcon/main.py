@@ -1,4 +1,5 @@
 # pip install transformers torch torchaudio torchvision accelerate einops bitsandbytes ruff-lsp
+# export HUGGINGFACE_HUB_CACHE=/workspace/hf/
 # Test script for Falcon-40B
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
