@@ -116,7 +116,11 @@ Stanford using the LLaMa, fined tuned, not for commercial use.
 
 * [GitHub](https://github.com/tatsu-lab/stanford_alpaca)
 
-# Too Big
+## Falcon 40B
+
+Tried to run this on a server with 2x RTX4090s with 8bit quantisation and it OOM'ed.
+
+* [HuggingFace](https://huggingface.co/tiiuae/falcon-40b)
 
 ## GLM-130B
 
