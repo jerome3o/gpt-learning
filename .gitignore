@@ -19,4 +19,5 @@ scratch/
 *.pb
 .xkm
 *.log
+*.log.*
 images/
