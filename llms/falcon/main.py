@@ -9,15 +9,22 @@ import torch
 model = "tiiuae/falcon-40b"
 
 tokenizer = AutoTokenizer.from_pretrained(model)
-pipeline = transformers.pipeline(
-    "text-generation",
-    model=model,
-    tokenizer=tokenizer,
+model = AutoModelForCausalLM.from_pretrained(
+    model,
     # torch_dtype=torch.bfloat16,
     load_in_8bit=True,
     trust_remote_code=True,
     device_map="auto",
 )
+# pipeline = transformers.pipeline(
+#     "text-generation",
+#     model=model,
+#     tokenizer=tokenizer,
+#     # torch_dtype=torch.bfloat16,
+#     load_in_8bit=True,
+#     trust_remote_code=True,
+#     device_map="auto",
+# )
 sequences = pipeline(
     "Girafatron is obsessed with giraffes, the most glorious animal on the face of this Earth. Giraftron believes all other animals are irrelevant when compared to the glorious majesty of the giraffe.\nDaniel: Hello, Girafatron!\nGirafatron:",
     max_length=200,
