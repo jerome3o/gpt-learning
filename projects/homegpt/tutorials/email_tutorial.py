@@ -1,3 +1,6 @@
+# TODO(j.swannack): re-write using the gmail api, this will require oauth2
+
+
 from typing import List
 import os
 import smtplib
