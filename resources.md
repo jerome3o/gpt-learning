@@ -3,7 +3,11 @@
 A collection of helpful resources I've used to learn about machine learning
 
 
-# LLM Structure
+# Language Modelling
+
+## Encodings
+
+* Jay Alammar, [The Illustrated Word2vec](http://jalammar.github.io/illustrated-word2vec/)
 
 ## Attention
 
