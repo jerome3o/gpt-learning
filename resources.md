@@ -20,3 +20,8 @@ A collection of helpful resources I've used to learn about machine learning
     * Great visualisations
 * Jay Alammar, [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/)
     * Great visualisations
+
+### Token Selection
+
+* [How to generate text](https://huggingface.co/blog/how-to-generate)
+    * Goes over top-k, top-p, beam, greedy methods for selecting tokens
