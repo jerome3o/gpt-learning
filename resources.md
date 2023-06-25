@@ -14,3 +14,5 @@ A collection of helpful resources I've used to learn about machine learning
 
 * Jay Alammar, [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
     * Great visualisations
+* Jay Alammar, [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/)
+    * Great visualisations
