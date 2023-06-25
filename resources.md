@@ -24,4 +24,4 @@ A collection of helpful resources I've used to learn about machine learning
 ### Token Selection
 
 * [How to generate text](https://huggingface.co/blog/how-to-generate)
-    * Goes over top-k, top-p, beam, greedy methods for selecting tokens
+    * Goes over top-k, top-p (nucleus sampling), beam, greedy methods for selecting tokens
